@@ -1,0 +1,21 @@
+classement,nom_equipe,matchs_joues,victoires,nuls,defaites,buts_pour,buts_contre,difference_buts,points
+1,SSC Napoli,37,23,10,4,57,27,30,79
+2,FC Internazionale Milano,37,23,9,5,77,35,42,78
+3,Atalanta BC,37,22,8,7,76,34,42,74
+4,Juventus FC,37,17,16,4,55,33,22,67
+5,AS Roma,37,19,9,9,54,35,19,66
+6,SS Lazio,37,18,11,8,61,48,13,65
+7,ACF Fiorentina,37,18,8,11,57,39,18,62
+8,Bologna FC 1909,37,16,14,7,56,44,12,62
+9,AC Milan,37,17,9,11,59,43,16,60
+10,Como 1907,37,13,10,14,49,50,-1,49
+11,Torino FC,37,10,14,13,39,43,-4,44
+12,Udinese Calcio,37,12,8,17,39,53,-14,44
+13,Genoa CFC,37,9,13,15,34,48,-14,40
+14,Cagliari Calcio,37,9,9,19,40,54,-14,36
+15,Hellas Verona FC,37,9,7,21,32,65,-33,34
+16,Parma Calcio 1913,37,6,15,16,41,56,-15,33
+17,Empoli FC,37,6,13,18,32,57,-25,31
+18,US Lecce,37,7,10,20,26,58,-32,31
+19,Venezia FC,37,5,14,18,30,53,-23,29
+20,AC Monza,37,3,9,25,28,67,-39,18

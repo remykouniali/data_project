@@ -50,11 +50,6 @@ def charger_matchs_ligue(code_ligue):
         # Extraction des scores
         score = match.get('score', {})
         
-        # Scores mi-temps
-        mt = score.get('ht', [None, None])
-        donnees_match['score_equipe1_mt'] = mt[0] if len(mt) > 0 else None
-        donnees_match['score_equipe2_mt'] = mt[1] if len(mt) > 1 else None
-        
         # Scores temps plein
         ft = score.get('ft', [None, None])
         donnees_match['score_equipe1_final'] = ft[0] if len(ft) > 0 else None

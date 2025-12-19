@@ -1,6 +1,7 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
-from src.utils.common_functions import charger_statistiques
-
+from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee
+import plotly.express as px
+import pandas as pd
 # Ligues 
 LIGUES = {
     'fr.1': 'Ligue 1',
@@ -37,6 +38,7 @@ app.layout = html.Div([
         value='fr.1',
         inline=True
     ),
+    dcc.Graph(id='graphique-buts'),
     
     # Tableau
     html.Div(id='tableau-classement')
@@ -45,19 +47,28 @@ app.layout = html.Div([
 # Callback pour mettre à jour le tableau en fonction de la ligue sélectionné
 @callback(
     Output('tableau-classement', 'children'),
+    Output('graphique-buts', 'figure'),
     Input('selection-ligue', 'value')
 )
 
-# Fonction pour afficher le classement
-def afficher_classement(code_ligue):
+# Fonction pour afficher le daqhboard
+def afficher_dashboard(code_ligue):
     stats = charger_statistiques(code_ligue)
+    matchs = charger_matchs(code_ligue)
     
-    return dash_table.DataTable(
+    tableau = dash_table.DataTable(
         data=stats.to_dict('records'), # Converti DataFrame en dictionnaire
         columns=COLONNES,
         style_header={'backgroundColor': '#1a1a2e', 'color': 'white', 'fontWeight': 'bold'},
         style_cell={'textAlign': 'center', 'padding': '10px'}
     )
+
+    # Graphique des buts par journée
+    buts = calculer_buts_par_journee(matchs)
+    fig = px.bar(x=buts.index, y=buts.values,labels={'x': 'Journée', 'y': 'Buts'})
+    
+    
+    return tableau, fig
 # Lancer le serveur
 if __name__ == '__main__':
     app.run(debug=True)

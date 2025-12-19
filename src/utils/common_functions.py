@@ -19,3 +19,12 @@ def charger_matchs(code_ligue):
     df = pd.read_csv(f'data/cleaned/matchs_{code_ligue}_nettoyes.csv')
     df['date'] = pd.to_datetime(df['date'])
     return df
+
+def calculer_buts_par_journee(matchs):
+    # Extraire le numéro (Matchday 1 → 1)
+    matchs['num_journee'] = matchs['journee'].str.extract(r'(\d+)').astype(int)
+    
+    # Grouper par numéro et sommer
+    buts = matchs.groupby('num_journee')['total_buts'].sum()
+    
+    return buts

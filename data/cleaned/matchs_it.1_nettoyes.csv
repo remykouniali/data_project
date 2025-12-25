@@ -1,371 +1,371 @@
-ligue,journee,date,heure,equipe1,equipe2,score_equipe1_mt,score_equipe2_mt,score_equipe1_final,score_equipe2_final,total_buts
-it.1,Matchday 1,2024-08-17,18:30,Genoa CFC,FC Internazionale Milano,1.0,1.0,2.0,2.0,4
-it.1,Matchday 1,2024-08-17,18:30,Parma Calcio 1913,ACF Fiorentina,1.0,0.0,1.0,1.0,2
-it.1,Matchday 1,2024-08-17,20:45,Empoli FC,AC Monza,,,0.0,0.0,0
-it.1,Matchday 1,2024-08-17,20:45,AC Milan,Torino FC,0.0,1.0,2.0,2.0,4
-it.1,Matchday 1,2024-08-18,18:30,Bologna FC 1909,Udinese Calcio,0.0,0.0,1.0,1.0,2
-it.1,Matchday 1,2024-08-18,18:30,Hellas Verona FC,SSC Napoli,0.0,0.0,3.0,0.0,3
-it.1,Matchday 1,2024-08-18,20:45,Cagliari Calcio,AS Roma,,,0.0,0.0,0
-it.1,Matchday 1,2024-08-18,20:45,SS Lazio,Venezia FC,2.0,1.0,3.0,1.0,4
-it.1,Matchday 1,2024-08-19,18:30,US Lecce,Atalanta BC,0.0,2.0,0.0,4.0,4
-it.1,Matchday 1,2024-08-19,20:45,Juventus FC,Como 1907,2.0,0.0,3.0,0.0,3
-it.1,Matchday 2,2024-08-24,18:30,Parma Calcio 1913,AC Milan,1.0,0.0,2.0,1.0,3
-it.1,Matchday 2,2024-08-24,18:30,Udinese Calcio,SS Lazio,1.0,0.0,2.0,1.0,3
-it.1,Matchday 2,2024-08-24,20:45,FC Internazionale Milano,US Lecce,1.0,0.0,2.0,0.0,2
-it.1,Matchday 2,2024-08-24,20:45,AC Monza,Genoa CFC,0.0,1.0,0.0,1.0,1
-it.1,Matchday 2,2024-08-25,18:30,ACF Fiorentina,Venezia FC,,,0.0,0.0,0
-it.1,Matchday 2,2024-08-25,18:30,Torino FC,Atalanta BC,1.0,1.0,2.0,1.0,3
-it.1,Matchday 2,2024-08-25,20:45,SSC Napoli,Bologna FC 1909,1.0,0.0,3.0,0.0,3
-it.1,Matchday 2,2024-08-25,20:45,AS Roma,Empoli FC,0.0,1.0,1.0,2.0,3
-it.1,Matchday 2,2024-08-26,18:30,Cagliari Calcio,Como 1907,1.0,0.0,1.0,1.0,2
-it.1,Matchday 2,2024-08-26,20:45,Hellas Verona FC,Juventus FC,0.0,2.0,0.0,3.0,3
-it.1,Matchday 3,2024-08-30,18:30,Venezia FC,Torino FC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 3,2024-08-30,20:45,FC Internazionale Milano,Atalanta BC,2.0,0.0,4.0,0.0,4
-it.1,Matchday 3,2024-08-31,18:30,Bologna FC 1909,Empoli FC,1.0,1.0,1.0,1.0,2
-it.1,Matchday 3,2024-08-31,18:30,US Lecce,Cagliari Calcio,1.0,0.0,1.0,0.0,1
-it.1,Matchday 3,2024-08-31,20:45,SS Lazio,AC Milan,0.0,1.0,2.0,2.0,4
-it.1,Matchday 3,2024-08-31,20:45,SSC Napoli,Parma Calcio 1913,0.0,1.0,2.0,1.0,3
-it.1,Matchday 3,2024-09-01,18:30,ACF Fiorentina,AC Monza,1.0,2.0,2.0,2.0,4
-it.1,Matchday 3,2024-09-01,18:30,Genoa CFC,Hellas Verona FC,0.0,0.0,0.0,2.0,2
-it.1,Matchday 3,2024-09-01,20:45,Juventus FC,AS Roma,,,0.0,0.0,0
-it.1,Matchday 3,2024-09-01,20:45,Udinese Calcio,Como 1907,1.0,0.0,1.0,0.0,1
-it.1,Matchday 4,2024-09-14,15:00,Como 1907,Bologna FC 1909,1.0,0.0,2.0,2.0,4
-it.1,Matchday 4,2024-09-14,18:00,Empoli FC,Juventus FC,,,0.0,0.0,0
-it.1,Matchday 4,2024-09-14,20:45,AC Milan,Venezia FC,4.0,0.0,4.0,0.0,4
-it.1,Matchday 4,2024-09-15,12:30,Genoa CFC,AS Roma,0.0,1.0,1.0,1.0,2
-it.1,Matchday 4,2024-09-15,15:00,Atalanta BC,ACF Fiorentina,3.0,2.0,3.0,2.0,5
-it.1,Matchday 4,2024-09-15,15:00,Torino FC,US Lecce,,,0.0,0.0,0
-it.1,Matchday 4,2024-09-15,18:00,Cagliari Calcio,SSC Napoli,0.0,1.0,0.0,4.0,4
-it.1,Matchday 4,2024-09-15,20:45,AC Monza,FC Internazionale Milano,0.0,0.0,1.0,1.0,2
-it.1,Matchday 4,2024-09-16,18:30,Parma Calcio 1913,Udinese Calcio,2.0,0.0,2.0,3.0,5
-it.1,Matchday 4,2024-09-16,20:45,SS Lazio,Hellas Verona FC,2.0,1.0,2.0,1.0,3
-it.1,Matchday 5,2024-09-20,18:30,Cagliari Calcio,Empoli FC,0.0,1.0,0.0,2.0,2
-it.1,Matchday 5,2024-09-20,20:45,Hellas Verona FC,Torino FC,1.0,2.0,2.0,3.0,5
-it.1,Matchday 5,2024-09-21,15:00,Venezia FC,Genoa CFC,0.0,0.0,2.0,0.0,2
-it.1,Matchday 5,2024-09-21,18:00,Juventus FC,SSC Napoli,,,0.0,0.0,0
-it.1,Matchday 5,2024-09-21,20:45,US Lecce,Parma Calcio 1913,1.0,0.0,2.0,2.0,4
-it.1,Matchday 5,2024-09-22,12:30,ACF Fiorentina,SS Lazio,0.0,1.0,2.0,1.0,3
-it.1,Matchday 5,2024-09-22,15:00,AC Monza,Bologna FC 1909,1.0,1.0,1.0,2.0,3
-it.1,Matchday 5,2024-09-22,18:00,AS Roma,Udinese Calcio,1.0,0.0,3.0,0.0,3
-it.1,Matchday 5,2024-09-22,20:45,FC Internazionale Milano,AC Milan,1.0,1.0,1.0,2.0,3
-it.1,Matchday 5,2024-09-24,20:45,Atalanta BC,Como 1907,1.0,0.0,2.0,3.0,5
-it.1,Matchday 6,2024-09-27,20:45,AC Milan,US Lecce,3.0,0.0,3.0,0.0,3
-it.1,Matchday 6,2024-09-28,15:00,Udinese Calcio,FC Internazionale Milano,1.0,2.0,2.0,3.0,5
-it.1,Matchday 6,2024-09-28,18:00,Genoa CFC,Juventus FC,0.0,0.0,0.0,3.0,3
-it.1,Matchday 6,2024-09-28,20:45,Bologna FC 1909,Atalanta BC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 6,2024-09-29,12:30,Torino FC,SS Lazio,0.0,1.0,2.0,3.0,5
-it.1,Matchday 6,2024-09-29,15:00,Como 1907,Hellas Verona FC,1.0,0.0,3.0,2.0,5
-it.1,Matchday 6,2024-09-29,15:00,AS Roma,Venezia FC,0.0,1.0,2.0,1.0,3
-it.1,Matchday 6,2024-09-29,18:00,Empoli FC,ACF Fiorentina,,,0.0,0.0,0
-it.1,Matchday 6,2024-09-29,20:45,SSC Napoli,AC Monza,2.0,0.0,2.0,0.0,2
-it.1,Matchday 6,2024-09-30,20:45,Parma Calcio 1913,Cagliari Calcio,0.0,1.0,2.0,3.0,5
-it.1,Matchday 7,2024-10-04,18:30,SSC Napoli,Como 1907,1.0,1.0,3.0,1.0,4
-it.1,Matchday 7,2024-10-04,20:45,Hellas Verona FC,Venezia FC,1.0,1.0,2.0,1.0,3
-it.1,Matchday 7,2024-10-05,15:00,Udinese Calcio,US Lecce,0.0,0.0,1.0,0.0,1
-it.1,Matchday 7,2024-10-05,18:00,Atalanta BC,Genoa CFC,1.0,0.0,5.0,1.0,6
-it.1,Matchday 7,2024-10-05,20:45,FC Internazionale Milano,Torino FC,2.0,1.0,3.0,2.0,5
-it.1,Matchday 7,2024-10-06,12:30,Juventus FC,Cagliari Calcio,1.0,0.0,1.0,1.0,2
-it.1,Matchday 7,2024-10-06,15:00,Bologna FC 1909,Parma Calcio 1913,,,0.0,0.0,0
-it.1,Matchday 7,2024-10-06,15:00,SS Lazio,Empoli FC,1.0,1.0,2.0,1.0,3
-it.1,Matchday 7,2024-10-06,18:00,AC Monza,AS Roma,0.0,0.0,1.0,1.0,2
-it.1,Matchday 7,2024-10-06,20:45,ACF Fiorentina,AC Milan,1.0,0.0,2.0,1.0,3
-it.1,Matchday 8,2024-10-19,15:00,Como 1907,Parma Calcio 1913,1.0,1.0,1.0,1.0,2
-it.1,Matchday 8,2024-10-19,15:00,Genoa CFC,Bologna FC 1909,0.0,1.0,2.0,2.0,4
-it.1,Matchday 8,2024-10-19,18:00,AC Milan,Udinese Calcio,1.0,0.0,1.0,0.0,1
-it.1,Matchday 8,2024-10-19,20:45,Juventus FC,SS Lazio,0.0,0.0,1.0,0.0,1
-it.1,Matchday 8,2024-10-20,12:30,Empoli FC,SSC Napoli,0.0,0.0,0.0,1.0,1
-it.1,Matchday 8,2024-10-20,15:00,US Lecce,ACF Fiorentina,0.0,3.0,0.0,6.0,6
-it.1,Matchday 8,2024-10-20,15:00,Venezia FC,Atalanta BC,0.0,1.0,0.0,2.0,2
-it.1,Matchday 8,2024-10-20,18:00,Cagliari Calcio,Torino FC,1.0,1.0,3.0,2.0,5
-it.1,Matchday 8,2024-10-20,20:45,AS Roma,FC Internazionale Milano,0.0,0.0,0.0,1.0,1
-it.1,Matchday 8,2024-10-21,20:45,Hellas Verona FC,AC Monza,0.0,1.0,0.0,3.0,3
-it.1,Matchday 9,2024-10-25,18:30,Udinese Calcio,Cagliari Calcio,1.0,0.0,2.0,0.0,2
-it.1,Matchday 9,2024-10-25,20:45,Torino FC,Como 1907,0.0,0.0,1.0,0.0,1
-it.1,Matchday 9,2024-10-26,15:00,SSC Napoli,US Lecce,0.0,0.0,1.0,0.0,1
-it.1,Matchday 9,2024-10-26,20:45,Atalanta BC,Hellas Verona FC,5.0,1.0,6.0,1.0,7
-it.1,Matchday 9,2024-10-27,12:30,Parma Calcio 1913,Empoli FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 9,2024-10-27,15:00,SS Lazio,Genoa CFC,1.0,0.0,3.0,0.0,3
-it.1,Matchday 9,2024-10-27,15:00,AC Monza,Venezia FC,2.0,2.0,2.0,2.0,4
-it.1,Matchday 9,2024-10-27,18:00,FC Internazionale Milano,Juventus FC,3.0,2.0,4.0,4.0,8
-it.1,Matchday 9,2024-10-27,20:45,ACF Fiorentina,AS Roma,3.0,1.0,5.0,1.0,6
-it.1,Matchday 10,2024-10-29,18:30,Cagliari Calcio,Bologna FC 1909,0.0,1.0,0.0,2.0,2
-it.1,Matchday 10,2024-10-29,18:30,US Lecce,Hellas Verona FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 10,2024-10-29,20:45,AC Milan,SSC Napoli,0.0,2.0,0.0,2.0,2
-it.1,Matchday 10,2024-10-30,18:30,Empoli FC,FC Internazionale Milano,0.0,0.0,0.0,3.0,3
-it.1,Matchday 10,2024-10-30,18:30,Venezia FC,Udinese Calcio,1.0,2.0,3.0,2.0,5
-it.1,Matchday 10,2024-10-30,20:45,Atalanta BC,AC Monza,0.0,0.0,2.0,0.0,2
-it.1,Matchday 10,2024-10-30,20:45,Juventus FC,Parma Calcio 1913,1.0,2.0,2.0,2.0,4
-it.1,Matchday 10,2024-10-31,18:30,Genoa CFC,ACF Fiorentina,0.0,0.0,0.0,1.0,1
-it.1,Matchday 10,2024-10-31,20:45,Como 1907,SS Lazio,0.0,2.0,1.0,5.0,6
-it.1,Matchday 10,2024-10-31,20:45,AS Roma,Torino FC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 11,2024-11-02,15:00,Bologna FC 1909,US Lecce,0.0,0.0,1.0,0.0,1
-it.1,Matchday 11,2024-11-02,18:00,Udinese Calcio,Juventus FC,0.0,2.0,0.0,2.0,2
-it.1,Matchday 11,2024-11-02,20:45,AC Monza,AC Milan,0.0,1.0,0.0,1.0,1
-it.1,Matchday 11,2024-11-03,12:30,SSC Napoli,Atalanta BC,0.0,2.0,0.0,3.0,3
-it.1,Matchday 11,2024-11-03,15:00,Torino FC,ACF Fiorentina,0.0,1.0,0.0,1.0,1
-it.1,Matchday 11,2024-11-03,18:00,Hellas Verona FC,AS Roma,2.0,1.0,3.0,2.0,5
-it.1,Matchday 11,2024-11-03,20:45,FC Internazionale Milano,Venezia FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 11,2024-11-04,18:30,Empoli FC,Como 1907,0.0,0.0,1.0,0.0,1
-it.1,Matchday 11,2024-11-04,18:30,Parma Calcio 1913,Genoa CFC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 11,2024-11-04,20:45,SS Lazio,Cagliari Calcio,1.0,1.0,2.0,1.0,3
-it.1,Matchday 12,2024-11-07,20:45,Genoa CFC,Como 1907,0.0,1.0,1.0,1.0,2
-it.1,Matchday 12,2024-11-08,20:45,US Lecce,Empoli FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 12,2024-11-09,15:00,Venezia FC,Parma Calcio 1913,1.0,1.0,1.0,2.0,3
-it.1,Matchday 12,2024-11-09,18:00,Cagliari Calcio,AC Milan,1.0,2.0,3.0,3.0,6
-it.1,Matchday 12,2024-11-09,20:45,Juventus FC,Torino FC,1.0,0.0,2.0,0.0,2
-it.1,Matchday 12,2024-11-10,12:30,Atalanta BC,Udinese Calcio,0.0,1.0,2.0,1.0,3
-it.1,Matchday 12,2024-11-10,15:00,ACF Fiorentina,Hellas Verona FC,1.0,1.0,3.0,1.0,4
-it.1,Matchday 12,2024-11-10,15:00,AS Roma,Bologna FC 1909,0.0,1.0,2.0,3.0,5
-it.1,Matchday 12,2024-11-10,18:00,AC Monza,SS Lazio,0.0,1.0,0.0,1.0,1
-it.1,Matchday 12,2024-11-10,20:45,FC Internazionale Milano,SSC Napoli,1.0,1.0,1.0,1.0,2
-it.1,Matchday 13,2024-11-23,15:00,Hellas Verona FC,FC Internazionale Milano,0.0,5.0,0.0,5.0,5
-it.1,Matchday 13,2024-11-23,18:00,AC Milan,Juventus FC,,,0.0,0.0,0
-it.1,Matchday 13,2024-11-23,20:45,Parma Calcio 1913,Atalanta BC,0.0,2.0,1.0,3.0,4
-it.1,Matchday 13,2024-11-24,12:30,Genoa CFC,Cagliari Calcio,1.0,1.0,2.0,2.0,4
-it.1,Matchday 13,2024-11-24,15:00,Como 1907,ACF Fiorentina,0.0,1.0,0.0,2.0,2
-it.1,Matchday 13,2024-11-24,15:00,Torino FC,AC Monza,0.0,0.0,1.0,1.0,2
-it.1,Matchday 13,2024-11-24,18:00,SSC Napoli,AS Roma,0.0,0.0,1.0,0.0,1
-it.1,Matchday 13,2024-11-24,20:45,SS Lazio,Bologna FC 1909,0.0,0.0,3.0,0.0,3
-it.1,Matchday 13,2024-11-25,18:30,Empoli FC,Udinese Calcio,1.0,0.0,1.0,1.0,2
-it.1,Matchday 13,2024-11-25,20:45,Venezia FC,US Lecce,0.0,0.0,0.0,1.0,1
-it.1,Matchday 14,2024-11-29,20:45,Cagliari Calcio,Hellas Verona FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 14,2024-11-30,15:00,Como 1907,AC Monza,1.0,0.0,1.0,1.0,2
-it.1,Matchday 14,2024-11-30,18:00,AC Milan,Empoli FC,2.0,0.0,3.0,0.0,3
-it.1,Matchday 14,2024-11-30,20:45,Bologna FC 1909,Venezia FC,1.0,0.0,3.0,0.0,3
-it.1,Matchday 14,2024-12-01,12:30,Udinese Calcio,Genoa CFC,0.0,1.0,0.0,2.0,2
-it.1,Matchday 14,2024-12-01,15:00,Parma Calcio 1913,SS Lazio,1.0,0.0,3.0,1.0,4
-it.1,Matchday 14,2024-12-01,15:00,Torino FC,SSC Napoli,0.0,1.0,0.0,1.0,1
-it.1,Matchday 14,2024-12-01,20:45,US Lecce,Juventus FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 14,2024-12-02,20:45,AS Roma,Atalanta BC,0.0,0.0,0.0,2.0,2
-it.1,Matchday 15,2024-12-06,18:30,FC Internazionale Milano,Parma Calcio 1913,1.0,0.0,3.0,1.0,4
-it.1,Matchday 15,2024-12-06,20:45,Atalanta BC,AC Milan,1.0,1.0,2.0,1.0,3
-it.1,Matchday 15,2024-12-07,15:00,Genoa CFC,Torino FC,,,0.0,0.0,0
-it.1,Matchday 15,2024-12-07,18:00,Juventus FC,Bologna FC 1909,0.0,1.0,2.0,2.0,4
-it.1,Matchday 15,2024-12-07,20:45,AS Roma,US Lecce,1.0,1.0,4.0,1.0,5
-it.1,Matchday 15,2024-12-08,12:30,ACF Fiorentina,Cagliari Calcio,1.0,0.0,1.0,0.0,1
-it.1,Matchday 15,2024-12-08,15:00,Hellas Verona FC,Empoli FC,1.0,4.0,1.0,4.0,5
-it.1,Matchday 15,2024-12-08,18:00,Venezia FC,Como 1907,1.0,0.0,2.0,2.0,4
-it.1,Matchday 15,2024-12-08,20:45,SSC Napoli,SS Lazio,0.0,0.0,0.0,1.0,1
-it.1,Matchday 15,2024-12-09,20:45,AC Monza,Udinese Calcio,0.0,1.0,1.0,2.0,3
-it.1,Matchday 16,2024-12-13,20:45,Empoli FC,Torino FC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 16,2024-12-14,15:00,Cagliari Calcio,Atalanta BC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 16,2024-12-14,18:00,Udinese Calcio,SSC Napoli,1.0,0.0,1.0,3.0,4
-it.1,Matchday 16,2024-12-14,20:45,Juventus FC,Venezia FC,1.0,0.0,2.0,2.0,4
-it.1,Matchday 16,2024-12-15,12:30,US Lecce,AC Monza,2.0,1.0,2.0,1.0,3
-it.1,Matchday 16,2024-12-15,15:00,Bologna FC 1909,ACF Fiorentina,0.0,0.0,1.0,0.0,1
-it.1,Matchday 16,2024-12-15,15:00,Parma Calcio 1913,Hellas Verona FC,1.0,1.0,2.0,3.0,5
-it.1,Matchday 16,2024-12-15,18:00,Como 1907,AS Roma,0.0,0.0,2.0,0.0,2
-it.1,Matchday 16,2024-12-15,20:45,AC Milan,Genoa CFC,,,0.0,0.0,0
-it.1,Matchday 16,2024-12-16,20:45,SS Lazio,FC Internazionale Milano,0.0,2.0,0.0,6.0,6
-it.1,Matchday 17,2024-12-20,20:45,Hellas Verona FC,AC Milan,0.0,0.0,0.0,1.0,1
-it.1,Matchday 17,2024-12-21,15:00,Torino FC,Bologna FC 1909,0.0,0.0,0.0,2.0,2
-it.1,Matchday 17,2024-12-21,18:00,Genoa CFC,SSC Napoli,0.0,2.0,1.0,2.0,3
-it.1,Matchday 17,2024-12-21,20:45,US Lecce,SS Lazio,0.0,1.0,1.0,2.0,3
-it.1,Matchday 17,2024-12-22,12:30,AS Roma,Parma Calcio 1913,2.0,0.0,5.0,0.0,5
-it.1,Matchday 17,2024-12-22,15:00,Venezia FC,Cagliari Calcio,1.0,0.0,2.0,1.0,3
-it.1,Matchday 17,2024-12-22,18:00,Atalanta BC,Empoli FC,2.0,1.0,3.0,2.0,5
-it.1,Matchday 17,2024-12-22,20:45,AC Monza,Juventus FC,1.0,2.0,1.0,2.0,3
-it.1,Matchday 17,2024-12-23,18:30,ACF Fiorentina,Udinese Calcio,1.0,0.0,1.0,2.0,3
-it.1,Matchday 17,2024-12-23,20:45,FC Internazionale Milano,Como 1907,0.0,0.0,2.0,0.0,2
-it.1,Matchday 18,2024-12-28,15:00,Empoli FC,Genoa CFC,0.0,0.0,1.0,2.0,3
-it.1,Matchday 18,2024-12-28,15:00,Parma Calcio 1913,AC Monza,0.0,0.0,2.0,1.0,3
-it.1,Matchday 18,2024-12-28,18:00,Cagliari Calcio,FC Internazionale Milano,0.0,0.0,0.0,3.0,3
-it.1,Matchday 18,2024-12-28,20:45,SS Lazio,Atalanta BC,1.0,0.0,1.0,1.0,2
-it.1,Matchday 18,2024-12-29,12:30,Udinese Calcio,Torino FC,1.0,0.0,2.0,2.0,4
-it.1,Matchday 18,2024-12-29,15:00,SSC Napoli,Venezia FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 18,2024-12-29,18:00,Juventus FC,ACF Fiorentina,1.0,1.0,2.0,2.0,4
-it.1,Matchday 18,2024-12-29,20:45,AC Milan,AS Roma,1.0,1.0,1.0,1.0,2
-it.1,Matchday 18,2024-12-30,18:30,Como 1907,US Lecce,0.0,0.0,2.0,0.0,2
-it.1,Matchday 18,2024-12-30,20:45,Bologna FC 1909,Hellas Verona FC,1.0,2.0,2.0,3.0,5
-it.1,Matchday 19,2025-01-04,15:00,Venezia FC,Empoli FC,1.0,1.0,1.0,1.0,2
-it.1,Matchday 19,2025-01-04,18:00,ACF Fiorentina,SSC Napoli,0.0,1.0,0.0,3.0,3
-it.1,Matchday 19,2025-01-04,20:45,Hellas Verona FC,Udinese Calcio,,,0.0,0.0,0
-it.1,Matchday 19,2025-01-05,12:30,AC Monza,Cagliari Calcio,1.0,1.0,1.0,2.0,3
-it.1,Matchday 19,2025-01-05,15:00,US Lecce,Genoa CFC,,,0.0,0.0,0
-it.1,Matchday 19,2025-01-05,18:00,Torino FC,Parma Calcio 1913,,,0.0,0.0,0
-it.1,Matchday 19,2025-01-05,20:45,AS Roma,SS Lazio,2.0,0.0,2.0,0.0,2
-it.1,Matchday 20,2025-01-10,20:45,SS Lazio,Como 1907,1.0,0.0,1.0,1.0,2
-it.1,Matchday 20,2025-01-11,15:00,Empoli FC,US Lecce,0.0,2.0,1.0,3.0,4
-it.1,Matchday 20,2025-01-11,15:00,Udinese Calcio,Atalanta BC,,,0.0,0.0,0
-it.1,Matchday 20,2025-01-11,18:00,Torino FC,Juventus FC,1.0,1.0,1.0,1.0,2
-it.1,Matchday 20,2025-01-11,20:45,AC Milan,Cagliari Calcio,0.0,0.0,1.0,1.0,2
-it.1,Matchday 20,2025-01-12,12:30,Genoa CFC,Parma Calcio 1913,0.0,0.0,1.0,0.0,1
-it.1,Matchday 20,2025-01-12,15:00,Venezia FC,FC Internazionale Milano,0.0,1.0,0.0,1.0,1
-it.1,Matchday 20,2025-01-12,18:00,Bologna FC 1909,AS Roma,0.0,0.0,2.0,2.0,4
-it.1,Matchday 20,2025-01-12,20:45,SSC Napoli,Hellas Verona FC,1.0,0.0,2.0,0.0,2
-it.1,Matchday 20,2025-01-13,20:45,AC Monza,ACF Fiorentina,1.0,0.0,2.0,1.0,3
-it.1,Matchday 19,2025-01-14,18:30,Como 1907,AC Milan,0.0,0.0,1.0,2.0,3
-it.1,Matchday 19,2025-01-14,20:45,Atalanta BC,Juventus FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 19,2025-01-15,20:45,FC Internazionale Milano,Bologna FC 1909,2.0,1.0,2.0,2.0,4
-it.1,Matchday 21,2025-01-17,20:45,AS Roma,Genoa CFC,1.0,1.0,3.0,1.0,4
-it.1,Matchday 21,2025-01-18,15:00,Bologna FC 1909,AC Monza,2.0,1.0,3.0,1.0,4
-it.1,Matchday 21,2025-01-18,18:00,Juventus FC,AC Milan,0.0,0.0,2.0,0.0,2
-it.1,Matchday 21,2025-01-18,20:45,Atalanta BC,SSC Napoli,1.0,2.0,2.0,3.0,5
-it.1,Matchday 21,2025-01-19,12:30,ACF Fiorentina,Torino FC,1.0,0.0,1.0,1.0,2
-it.1,Matchday 21,2025-01-19,15:00,Cagliari Calcio,US Lecce,0.0,1.0,4.0,1.0,5
-it.1,Matchday 21,2025-01-19,15:00,Parma Calcio 1913,Venezia FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 21,2025-01-19,18:00,Hellas Verona FC,SS Lazio,0.0,2.0,0.0,3.0,3
-it.1,Matchday 21,2025-01-19,20:45,FC Internazionale Milano,Empoli FC,0.0,0.0,3.0,1.0,4
-it.1,Matchday 21,2025-01-20,20:45,Como 1907,Udinese Calcio,2.0,0.0,4.0,1.0,5
-it.1,Matchday 22,2025-01-24,20:45,Torino FC,Cagliari Calcio,1.0,0.0,2.0,0.0,2
-it.1,Matchday 22,2025-01-25,15:00,Como 1907,Atalanta BC,1.0,0.0,1.0,2.0,3
-it.1,Matchday 22,2025-01-25,18:00,SSC Napoli,Juventus FC,0.0,1.0,2.0,1.0,3
-it.1,Matchday 22,2025-01-25,20:45,Empoli FC,Bologna FC 1909,1.0,1.0,1.0,1.0,2
-it.1,Matchday 22,2025-01-26,12:30,AC Milan,Parma Calcio 1913,1.0,1.0,3.0,2.0,5
-it.1,Matchday 22,2025-01-26,15:00,Udinese Calcio,AS Roma,1.0,0.0,1.0,2.0,3
-it.1,Matchday 22,2025-01-26,18:00,US Lecce,FC Internazionale Milano,0.0,2.0,0.0,4.0,4
-it.1,Matchday 22,2025-01-26,20:45,SS Lazio,ACF Fiorentina,0.0,2.0,1.0,2.0,3
-it.1,Matchday 22,2025-01-27,18:30,Venezia FC,Hellas Verona FC,1.0,0.0,1.0,1.0,2
-it.1,Matchday 22,2025-01-27,20:45,Genoa CFC,AC Monza,0.0,0.0,2.0,0.0,2
-it.1,Matchday 23,2025-01-31,20:45,Parma Calcio 1913,US Lecce,1.0,1.0,1.0,3.0,4
-it.1,Matchday 23,2025-02-01,15:00,AC Monza,Hellas Verona FC,0.0,1.0,0.0,1.0,1
-it.1,Matchday 23,2025-02-01,15:00,Udinese Calcio,Venezia FC,0.0,0.0,3.0,2.0,5
-it.1,Matchday 23,2025-02-01,18:00,Atalanta BC,Torino FC,1.0,1.0,1.0,1.0,2
-it.1,Matchday 23,2025-02-01,20:45,Bologna FC 1909,Como 1907,1.0,0.0,2.0,0.0,2
-it.1,Matchday 23,2025-02-02,12:30,Juventus FC,Empoli FC,0.0,1.0,4.0,1.0,5
-it.1,Matchday 23,2025-02-02,15:00,ACF Fiorentina,Genoa CFC,2.0,0.0,2.0,1.0,3
-it.1,Matchday 23,2025-02-02,18:00,AC Milan,FC Internazionale Milano,1.0,0.0,1.0,1.0,2
-it.1,Matchday 23,2025-02-02,20:45,AS Roma,SSC Napoli,0.0,1.0,1.0,1.0,2
-it.1,Matchday 23,2025-02-03,20:45,Cagliari Calcio,SS Lazio,0.0,1.0,1.0,2.0,3
-it.1,Matchday 14,2025-02-06,20:45,ACF Fiorentina,FC Internazionale Milano,3.0,0.0,3.0,0.0,3
-it.1,Matchday 24,2025-02-07,20:45,Como 1907,Juventus FC,1.0,1.0,1.0,2.0,3
-it.1,Matchday 24,2025-02-08,15:00,Hellas Verona FC,Atalanta BC,0.0,4.0,0.0,5.0,5
-it.1,Matchday 24,2025-02-08,18:00,Empoli FC,AC Milan,0.0,0.0,0.0,2.0,2
-it.1,Matchday 24,2025-02-08,20:45,Torino FC,Genoa CFC,1.0,0.0,1.0,1.0,2
-it.1,Matchday 24,2025-02-09,12:30,Venezia FC,AS Roma,0.0,0.0,0.0,1.0,1
-it.1,Matchday 24,2025-02-09,15:00,Cagliari Calcio,Parma Calcio 1913,0.0,0.0,2.0,1.0,3
-it.1,Matchday 24,2025-02-09,15:00,SS Lazio,AC Monza,1.0,0.0,5.0,1.0,6
-it.1,Matchday 24,2025-02-09,18:00,US Lecce,Bologna FC 1909,,,0.0,0.0,0
-it.1,Matchday 24,2025-02-09,20:45,SSC Napoli,Udinese Calcio,1.0,1.0,1.0,1.0,2
-it.1,Matchday 24,2025-02-10,20:45,FC Internazionale Milano,ACF Fiorentina,1.0,1.0,2.0,1.0,3
-it.1,Matchday 25,2025-02-14,20:45,Bologna FC 1909,Torino FC,1.0,1.0,3.0,2.0,5
-it.1,Matchday 25,2025-02-15,15:00,Atalanta BC,Cagliari Calcio,,,0.0,0.0,0
-it.1,Matchday 25,2025-02-15,18:00,SS Lazio,SSC Napoli,1.0,1.0,2.0,2.0,4
-it.1,Matchday 25,2025-02-15,20:45,AC Milan,Hellas Verona FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 25,2025-02-16,12:30,ACF Fiorentina,Como 1907,0.0,1.0,0.0,2.0,2
-it.1,Matchday 25,2025-02-16,15:00,AC Monza,US Lecce,,,0.0,0.0,0
-it.1,Matchday 25,2025-02-16,15:00,Udinese Calcio,Empoli FC,1.0,0.0,3.0,0.0,3
-it.1,Matchday 25,2025-02-16,18:00,Parma Calcio 1913,AS Roma,0.0,1.0,0.0,1.0,1
-it.1,Matchday 25,2025-02-16,20:45,Juventus FC,FC Internazionale Milano,0.0,0.0,1.0,0.0,1
-it.1,Matchday 25,2025-02-17,20:45,Genoa CFC,Venezia FC,0.0,0.0,2.0,0.0,2
-it.1,Matchday 26,2025-02-21,20:45,US Lecce,Udinese Calcio,0.0,1.0,0.0,1.0,1
-it.1,Matchday 26,2025-02-22,15:00,Parma Calcio 1913,Bologna FC 1909,1.0,0.0,2.0,0.0,2
-it.1,Matchday 26,2025-02-22,15:00,Venezia FC,SS Lazio,,,0.0,0.0,0
-it.1,Matchday 26,2025-02-22,18:00,Torino FC,AC Milan,1.0,0.0,2.0,1.0,3
-it.1,Matchday 26,2025-02-22,20:45,FC Internazionale Milano,Genoa CFC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 26,2025-02-23,12:30,Como 1907,SSC Napoli,1.0,1.0,2.0,1.0,3
-it.1,Matchday 26,2025-02-23,15:00,Hellas Verona FC,ACF Fiorentina,0.0,0.0,1.0,0.0,1
-it.1,Matchday 26,2025-02-23,18:00,Empoli FC,Atalanta BC,0.0,3.0,0.0,5.0,5
-it.1,Matchday 26,2025-02-23,20:45,Cagliari Calcio,Juventus FC,0.0,1.0,0.0,1.0,1
-it.1,Matchday 26,2025-02-24,20:45,AS Roma,AC Monza,2.0,0.0,4.0,0.0,4
-it.1,Matchday 9,2025-02-27,20:45,Bologna FC 1909,AC Milan,0.0,1.0,2.0,1.0,3
-it.1,Matchday 27,2025-02-28,20:45,ACF Fiorentina,US Lecce,1.0,0.0,1.0,0.0,1
-it.1,Matchday 27,2025-03-01,15:00,Atalanta BC,Venezia FC,,,0.0,0.0,0
-it.1,Matchday 27,2025-03-01,18:00,SSC Napoli,FC Internazionale Milano,0.0,1.0,1.0,1.0,2
-it.1,Matchday 27,2025-03-01,20:45,Udinese Calcio,Parma Calcio 1913,1.0,0.0,1.0,0.0,1
-it.1,Matchday 27,2025-03-02,12:30,AC Monza,Torino FC,0.0,1.0,0.0,2.0,2
-it.1,Matchday 27,2025-03-02,15:00,Bologna FC 1909,Cagliari Calcio,0.0,1.0,2.0,1.0,3
-it.1,Matchday 27,2025-03-02,15:00,Genoa CFC,Empoli FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 27,2025-03-02,18:00,AS Roma,Como 1907,0.0,1.0,2.0,1.0,3
-it.1,Matchday 27,2025-03-02,20:45,AC Milan,SS Lazio,0.0,1.0,1.0,2.0,3
-it.1,Matchday 27,2025-03-03,20:45,Juventus FC,Hellas Verona FC,0.0,0.0,2.0,0.0,2
-it.1,Matchday 28,2025-03-07,20:45,Cagliari Calcio,Genoa CFC,1.0,0.0,1.0,1.0,2
-it.1,Matchday 28,2025-03-08,15:00,Como 1907,Venezia FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 28,2025-03-08,15:00,Parma Calcio 1913,Torino FC,0.0,1.0,2.0,2.0,4
-it.1,Matchday 28,2025-03-08,18:00,US Lecce,AC Milan,1.0,0.0,2.0,3.0,5
-it.1,Matchday 28,2025-03-08,20:45,FC Internazionale Milano,AC Monza,1.0,2.0,3.0,2.0,5
-it.1,Matchday 28,2025-03-09,12:30,Hellas Verona FC,Bologna FC 1909,0.0,1.0,1.0,2.0,3
-it.1,Matchday 28,2025-03-09,15:00,SSC Napoli,ACF Fiorentina,1.0,0.0,2.0,1.0,3
-it.1,Matchday 28,2025-03-09,18:00,Empoli FC,AS Roma,0.0,1.0,0.0,1.0,1
-it.1,Matchday 28,2025-03-09,20:45,Juventus FC,Atalanta BC,0.0,1.0,0.0,4.0,4
-it.1,Matchday 28,2025-03-10,20:45,SS Lazio,Udinese Calcio,1.0,1.0,1.0,1.0,2
-it.1,Matchday 29,2025-03-14,20:45,Genoa CFC,US Lecce,2.0,0.0,2.0,1.0,3
-it.1,Matchday 29,2025-03-15,15:00,AC Monza,Parma Calcio 1913,0.0,0.0,1.0,1.0,2
-it.1,Matchday 29,2025-03-15,15:00,Udinese Calcio,Hellas Verona FC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 29,2025-03-15,18:00,AC Milan,Como 1907,0.0,1.0,2.0,1.0,3
-it.1,Matchday 29,2025-03-15,20:45,Torino FC,Empoli FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 29,2025-03-16,12:30,Venezia FC,SSC Napoli,,,0.0,0.0,0
-it.1,Matchday 29,2025-03-16,15:00,Bologna FC 1909,SS Lazio,1.0,0.0,5.0,0.0,5
-it.1,Matchday 29,2025-03-16,16:00,AS Roma,Cagliari Calcio,0.0,0.0,1.0,0.0,1
-it.1,Matchday 29,2025-03-16,18:00,ACF Fiorentina,Juventus FC,2.0,0.0,3.0,0.0,3
-it.1,Matchday 29,2025-03-16,20:45,Atalanta BC,FC Internazionale Milano,0.0,0.0,0.0,2.0,2
-it.1,Matchday 30,2025-03-29,15:00,Como 1907,Empoli FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 30,2025-03-29,15:00,Venezia FC,Bologna FC 1909,0.0,0.0,0.0,1.0,1
-it.1,Matchday 30,2025-03-29,18:00,Juventus FC,Genoa CFC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 30,2025-03-29,20:45,US Lecce,AS Roma,0.0,0.0,0.0,1.0,1
-it.1,Matchday 30,2025-03-30,12:30,Cagliari Calcio,AC Monza,0.0,0.0,3.0,0.0,3
-it.1,Matchday 30,2025-03-30,15:00,ACF Fiorentina,Atalanta BC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 30,2025-03-30,18:00,FC Internazionale Milano,Udinese Calcio,2.0,0.0,2.0,1.0,3
-it.1,Matchday 30,2025-03-30,20:45,SSC Napoli,AC Milan,2.0,0.0,2.0,1.0,3
-it.1,Matchday 30,2025-03-31,18:30,Hellas Verona FC,Parma Calcio 1913,,,0.0,0.0,0
-it.1,Matchday 30,2025-03-31,20:45,SS Lazio,Torino FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 31,2025-04-04,20:45,Genoa CFC,Udinese Calcio,0.0,0.0,1.0,0.0,1
-it.1,Matchday 31,2025-04-05,15:00,AC Monza,Como 1907,1.0,2.0,1.0,3.0,4
-it.1,Matchday 31,2025-04-05,18:00,Parma Calcio 1913,FC Internazionale Milano,0.0,2.0,2.0,2.0,4
-it.1,Matchday 31,2025-04-05,20:45,AC Milan,ACF Fiorentina,1.0,2.0,2.0,2.0,4
-it.1,Matchday 31,2025-04-06,12:30,US Lecce,Venezia FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 31,2025-04-06,15:00,Empoli FC,Cagliari Calcio,,,0.0,0.0,0
-it.1,Matchday 31,2025-04-06,15:00,Torino FC,Hellas Verona FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 31,2025-04-06,18:00,Atalanta BC,SS Lazio,0.0,0.0,0.0,1.0,1
-it.1,Matchday 31,2025-04-06,20:45,AS Roma,Juventus FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 31,2025-04-07,20:45,Bologna FC 1909,SSC Napoli,0.0,1.0,1.0,1.0,2
-it.1,Matchday 32,2025-04-11,20:45,Udinese Calcio,AC Milan,0.0,2.0,0.0,4.0,4
-it.1,Matchday 32,2025-04-12,15:00,Venezia FC,AC Monza,0.0,0.0,1.0,0.0,1
-it.1,Matchday 32,2025-04-12,18:00,FC Internazionale Milano,Cagliari Calcio,2.0,0.0,3.0,1.0,4
-it.1,Matchday 32,2025-04-12,20:45,Juventus FC,US Lecce,2.0,0.0,2.0,1.0,3
-it.1,Matchday 32,2025-04-13,12:30,Atalanta BC,Bologna FC 1909,2.0,0.0,2.0,0.0,2
-it.1,Matchday 32,2025-04-13,15:00,ACF Fiorentina,Parma Calcio 1913,,,0.0,0.0,0
-it.1,Matchday 32,2025-04-13,15:00,Hellas Verona FC,Genoa CFC,,,0.0,0.0,0
-it.1,Matchday 32,2025-04-13,18:00,Como 1907,Torino FC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 32,2025-04-13,20:45,SS Lazio,AS Roma,0.0,0.0,1.0,1.0,2
-it.1,Matchday 32,2025-04-14,20:45,SSC Napoli,Empoli FC,1.0,0.0,3.0,0.0,3
-it.1,Matchday 33,2025-04-19,15:00,US Lecce,Como 1907,0.0,1.0,0.0,3.0,3
-it.1,Matchday 33,2025-04-19,18:00,AC Monza,SSC Napoli,0.0,0.0,0.0,1.0,1
-it.1,Matchday 33,2025-04-19,20:45,AS Roma,Hellas Verona FC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 33,2025-04-20,15:00,Empoli FC,Venezia FC,0.0,0.0,2.0,2.0,4
-it.1,Matchday 33,2025-04-20,18:00,Bologna FC 1909,FC Internazionale Milano,0.0,0.0,1.0,0.0,1
-it.1,Matchday 33,2025-04-20,20:45,AC Milan,Atalanta BC,0.0,0.0,0.0,1.0,1
-it.1,Matchday 33,2025-04-23,18:30,Cagliari Calcio,ACF Fiorentina,1.0,1.0,1.0,2.0,3
-it.1,Matchday 33,2025-04-23,18:30,Genoa CFC,SS Lazio,0.0,1.0,0.0,2.0,2
-it.1,Matchday 33,2025-04-23,18:30,Parma Calcio 1913,Juventus FC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 33,2025-04-23,18:30,Torino FC,Udinese Calcio,1.0,0.0,2.0,0.0,2
-it.1,Matchday 34,2025-04-27,12:30,Como 1907,Genoa CFC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 34,2025-04-27,12:30,Venezia FC,AC Milan,0.0,1.0,0.0,2.0,2
-it.1,Matchday 34,2025-04-27,15:00,ACF Fiorentina,Empoli FC,2.0,0.0,2.0,1.0,3
-it.1,Matchday 34,2025-04-27,15:00,FC Internazionale Milano,AS Roma,0.0,1.0,0.0,1.0,1
-it.1,Matchday 34,2025-04-27,18:00,Juventus FC,AC Monza,2.0,0.0,2.0,0.0,2
-it.1,Matchday 34,2025-04-27,20:45,Atalanta BC,US Lecce,0.0,1.0,1.0,1.0,2
-it.1,Matchday 34,2025-04-27,20:45,SSC Napoli,Torino FC,2.0,0.0,2.0,0.0,2
-it.1,Matchday 34,2025-04-28,18:30,Udinese Calcio,Bologna FC 1909,,,0.0,0.0,0
-it.1,Matchday 34,2025-04-28,20:45,Hellas Verona FC,Cagliari Calcio,0.0,1.0,0.0,2.0,2
-it.1,Matchday 34,2025-04-28,20:45,SS Lazio,Parma Calcio 1913,0.0,1.0,2.0,2.0,4
-it.1,Matchday 35,2025-05-02,20:45,Torino FC,Venezia FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 35,2025-05-03,15:00,Cagliari Calcio,Udinese Calcio,1.0,1.0,1.0,2.0,3
-it.1,Matchday 35,2025-05-03,15:00,Parma Calcio 1913,Como 1907,0.0,0.0,0.0,1.0,1
-it.1,Matchday 35,2025-05-03,18:00,US Lecce,SSC Napoli,0.0,1.0,0.0,1.0,1
-it.1,Matchday 35,2025-05-03,20:45,FC Internazionale Milano,Hellas Verona FC,1.0,0.0,1.0,0.0,1
-it.1,Matchday 35,2025-05-04,12:30,Empoli FC,SS Lazio,0.0,1.0,0.0,1.0,1
-it.1,Matchday 35,2025-05-04,15:00,AC Monza,Atalanta BC,0.0,2.0,0.0,4.0,4
-it.1,Matchday 35,2025-05-04,18:00,AS Roma,ACF Fiorentina,1.0,0.0,1.0,0.0,1
-it.1,Matchday 35,2025-05-04,20:45,Bologna FC 1909,Juventus FC,0.0,1.0,1.0,1.0,2
-it.1,Matchday 35,2025-05-05,20:45,Genoa CFC,AC Milan,0.0,0.0,1.0,2.0,3
-it.1,Matchday 36,2025-05-09,20:45,AC Milan,Bologna FC 1909,0.0,0.0,3.0,1.0,4
-it.1,Matchday 36,2025-05-10,15:00,Como 1907,Cagliari Calcio,2.0,1.0,3.0,1.0,4
-it.1,Matchday 36,2025-05-10,18:00,SS Lazio,Juventus FC,0.0,0.0,1.0,1.0,2
-it.1,Matchday 36,2025-05-10,20:45,Empoli FC,Parma Calcio 1913,1.0,0.0,2.0,1.0,3
-it.1,Matchday 36,2025-05-11,12:30,Udinese Calcio,AC Monza,0.0,0.0,1.0,2.0,3
-it.1,Matchday 36,2025-05-11,15:00,Hellas Verona FC,US Lecce,1.0,1.0,1.0,1.0,2
-it.1,Matchday 36,2025-05-11,18:00,Torino FC,FC Internazionale Milano,0.0,1.0,0.0,2.0,2
-it.1,Matchday 36,2025-05-11,20:45,SSC Napoli,Genoa CFC,1.0,1.0,2.0,2.0,4
-it.1,Matchday 36,2025-05-12,18:30,Venezia FC,ACF Fiorentina,0.0,0.0,2.0,1.0,3
-it.1,Matchday 36,2025-05-12,20:45,Atalanta BC,AS Roma,1.0,1.0,2.0,1.0,3
-it.1,Matchday 37,2025-05-17,20:45,Genoa CFC,Atalanta BC,1.0,0.0,2.0,3.0,5
-it.1,Matchday 37,2025-05-18,20:45,Cagliari Calcio,Venezia FC,2.0,0.0,3.0,0.0,3
-it.1,Matchday 37,2025-05-18,20:45,ACF Fiorentina,Bologna FC 1909,1.0,0.0,3.0,2.0,5
-it.1,Matchday 37,2025-05-18,20:45,Hellas Verona FC,Como 1907,0.0,1.0,1.0,1.0,2
-it.1,Matchday 37,2025-05-18,20:45,FC Internazionale Milano,SS Lazio,1.0,0.0,2.0,2.0,4
-it.1,Matchday 37,2025-05-18,20:45,Juventus FC,Udinese Calcio,0.0,0.0,2.0,0.0,2
-it.1,Matchday 37,2025-05-18,20:45,US Lecce,Torino FC,0.0,0.0,1.0,0.0,1
-it.1,Matchday 37,2025-05-18,20:45,AC Monza,Empoli FC,1.0,0.0,1.0,3.0,4
-it.1,Matchday 37,2025-05-18,20:45,Parma Calcio 1913,SSC Napoli,,,0.0,0.0,0
-it.1,Matchday 37,2025-05-18,20:45,AS Roma,AC Milan,1.0,1.0,3.0,1.0,4
+ligue,journee,date,heure,equipe1,equipe2,score_equipe1_final,score_equipe2_final,total_buts
+it.1,Matchday 1,2024-08-17,18:30,Genoa CFC,FC Internazionale Milano,2.0,2.0,4
+it.1,Matchday 1,2024-08-17,18:30,Parma Calcio 1913,ACF Fiorentina,1.0,1.0,2
+it.1,Matchday 1,2024-08-17,20:45,Empoli FC,AC Monza,0.0,0.0,0
+it.1,Matchday 1,2024-08-17,20:45,AC Milan,Torino FC,2.0,2.0,4
+it.1,Matchday 1,2024-08-18,18:30,Bologna FC 1909,Udinese Calcio,1.0,1.0,2
+it.1,Matchday 1,2024-08-18,18:30,Hellas Verona FC,SSC Napoli,3.0,0.0,3
+it.1,Matchday 1,2024-08-18,20:45,Cagliari Calcio,AS Roma,0.0,0.0,0
+it.1,Matchday 1,2024-08-18,20:45,SS Lazio,Venezia FC,3.0,1.0,4
+it.1,Matchday 1,2024-08-19,18:30,US Lecce,Atalanta BC,0.0,4.0,4
+it.1,Matchday 1,2024-08-19,20:45,Juventus FC,Como 1907,3.0,0.0,3
+it.1,Matchday 2,2024-08-24,18:30,Parma Calcio 1913,AC Milan,2.0,1.0,3
+it.1,Matchday 2,2024-08-24,18:30,Udinese Calcio,SS Lazio,2.0,1.0,3
+it.1,Matchday 2,2024-08-24,20:45,FC Internazionale Milano,US Lecce,2.0,0.0,2
+it.1,Matchday 2,2024-08-24,20:45,AC Monza,Genoa CFC,0.0,1.0,1
+it.1,Matchday 2,2024-08-25,18:30,ACF Fiorentina,Venezia FC,0.0,0.0,0
+it.1,Matchday 2,2024-08-25,18:30,Torino FC,Atalanta BC,2.0,1.0,3
+it.1,Matchday 2,2024-08-25,20:45,SSC Napoli,Bologna FC 1909,3.0,0.0,3
+it.1,Matchday 2,2024-08-25,20:45,AS Roma,Empoli FC,1.0,2.0,3
+it.1,Matchday 2,2024-08-26,18:30,Cagliari Calcio,Como 1907,1.0,1.0,2
+it.1,Matchday 2,2024-08-26,20:45,Hellas Verona FC,Juventus FC,0.0,3.0,3
+it.1,Matchday 3,2024-08-30,18:30,Venezia FC,Torino FC,0.0,1.0,1
+it.1,Matchday 3,2024-08-30,20:45,FC Internazionale Milano,Atalanta BC,4.0,0.0,4
+it.1,Matchday 3,2024-08-31,18:30,Bologna FC 1909,Empoli FC,1.0,1.0,2
+it.1,Matchday 3,2024-08-31,18:30,US Lecce,Cagliari Calcio,1.0,0.0,1
+it.1,Matchday 3,2024-08-31,20:45,SS Lazio,AC Milan,2.0,2.0,4
+it.1,Matchday 3,2024-08-31,20:45,SSC Napoli,Parma Calcio 1913,2.0,1.0,3
+it.1,Matchday 3,2024-09-01,18:30,ACF Fiorentina,AC Monza,2.0,2.0,4
+it.1,Matchday 3,2024-09-01,18:30,Genoa CFC,Hellas Verona FC,0.0,2.0,2
+it.1,Matchday 3,2024-09-01,20:45,Juventus FC,AS Roma,0.0,0.0,0
+it.1,Matchday 3,2024-09-01,20:45,Udinese Calcio,Como 1907,1.0,0.0,1
+it.1,Matchday 4,2024-09-14,15:00,Como 1907,Bologna FC 1909,2.0,2.0,4
+it.1,Matchday 4,2024-09-14,18:00,Empoli FC,Juventus FC,0.0,0.0,0
+it.1,Matchday 4,2024-09-14,20:45,AC Milan,Venezia FC,4.0,0.0,4
+it.1,Matchday 4,2024-09-15,12:30,Genoa CFC,AS Roma,1.0,1.0,2
+it.1,Matchday 4,2024-09-15,15:00,Atalanta BC,ACF Fiorentina,3.0,2.0,5
+it.1,Matchday 4,2024-09-15,15:00,Torino FC,US Lecce,0.0,0.0,0
+it.1,Matchday 4,2024-09-15,18:00,Cagliari Calcio,SSC Napoli,0.0,4.0,4
+it.1,Matchday 4,2024-09-15,20:45,AC Monza,FC Internazionale Milano,1.0,1.0,2
+it.1,Matchday 4,2024-09-16,18:30,Parma Calcio 1913,Udinese Calcio,2.0,3.0,5
+it.1,Matchday 4,2024-09-16,20:45,SS Lazio,Hellas Verona FC,2.0,1.0,3
+it.1,Matchday 5,2024-09-20,18:30,Cagliari Calcio,Empoli FC,0.0,2.0,2
+it.1,Matchday 5,2024-09-20,20:45,Hellas Verona FC,Torino FC,2.0,3.0,5
+it.1,Matchday 5,2024-09-21,15:00,Venezia FC,Genoa CFC,2.0,0.0,2
+it.1,Matchday 5,2024-09-21,18:00,Juventus FC,SSC Napoli,0.0,0.0,0
+it.1,Matchday 5,2024-09-21,20:45,US Lecce,Parma Calcio 1913,2.0,2.0,4
+it.1,Matchday 5,2024-09-22,12:30,ACF Fiorentina,SS Lazio,2.0,1.0,3
+it.1,Matchday 5,2024-09-22,15:00,AC Monza,Bologna FC 1909,1.0,2.0,3
+it.1,Matchday 5,2024-09-22,18:00,AS Roma,Udinese Calcio,3.0,0.0,3
+it.1,Matchday 5,2024-09-22,20:45,FC Internazionale Milano,AC Milan,1.0,2.0,3
+it.1,Matchday 5,2024-09-24,20:45,Atalanta BC,Como 1907,2.0,3.0,5
+it.1,Matchday 6,2024-09-27,20:45,AC Milan,US Lecce,3.0,0.0,3
+it.1,Matchday 6,2024-09-28,15:00,Udinese Calcio,FC Internazionale Milano,2.0,3.0,5
+it.1,Matchday 6,2024-09-28,18:00,Genoa CFC,Juventus FC,0.0,3.0,3
+it.1,Matchday 6,2024-09-28,20:45,Bologna FC 1909,Atalanta BC,1.0,1.0,2
+it.1,Matchday 6,2024-09-29,12:30,Torino FC,SS Lazio,2.0,3.0,5
+it.1,Matchday 6,2024-09-29,15:00,Como 1907,Hellas Verona FC,3.0,2.0,5
+it.1,Matchday 6,2024-09-29,15:00,AS Roma,Venezia FC,2.0,1.0,3
+it.1,Matchday 6,2024-09-29,18:00,Empoli FC,ACF Fiorentina,0.0,0.0,0
+it.1,Matchday 6,2024-09-29,20:45,SSC Napoli,AC Monza,2.0,0.0,2
+it.1,Matchday 6,2024-09-30,20:45,Parma Calcio 1913,Cagliari Calcio,2.0,3.0,5
+it.1,Matchday 7,2024-10-04,18:30,SSC Napoli,Como 1907,3.0,1.0,4
+it.1,Matchday 7,2024-10-04,20:45,Hellas Verona FC,Venezia FC,2.0,1.0,3
+it.1,Matchday 7,2024-10-05,15:00,Udinese Calcio,US Lecce,1.0,0.0,1
+it.1,Matchday 7,2024-10-05,18:00,Atalanta BC,Genoa CFC,5.0,1.0,6
+it.1,Matchday 7,2024-10-05,20:45,FC Internazionale Milano,Torino FC,3.0,2.0,5
+it.1,Matchday 7,2024-10-06,12:30,Juventus FC,Cagliari Calcio,1.0,1.0,2
+it.1,Matchday 7,2024-10-06,15:00,Bologna FC 1909,Parma Calcio 1913,0.0,0.0,0
+it.1,Matchday 7,2024-10-06,15:00,SS Lazio,Empoli FC,2.0,1.0,3
+it.1,Matchday 7,2024-10-06,18:00,AC Monza,AS Roma,1.0,1.0,2
+it.1,Matchday 7,2024-10-06,20:45,ACF Fiorentina,AC Milan,2.0,1.0,3
+it.1,Matchday 8,2024-10-19,15:00,Como 1907,Parma Calcio 1913,1.0,1.0,2
+it.1,Matchday 8,2024-10-19,15:00,Genoa CFC,Bologna FC 1909,2.0,2.0,4
+it.1,Matchday 8,2024-10-19,18:00,AC Milan,Udinese Calcio,1.0,0.0,1
+it.1,Matchday 8,2024-10-19,20:45,Juventus FC,SS Lazio,1.0,0.0,1
+it.1,Matchday 8,2024-10-20,12:30,Empoli FC,SSC Napoli,0.0,1.0,1
+it.1,Matchday 8,2024-10-20,15:00,US Lecce,ACF Fiorentina,0.0,6.0,6
+it.1,Matchday 8,2024-10-20,15:00,Venezia FC,Atalanta BC,0.0,2.0,2
+it.1,Matchday 8,2024-10-20,18:00,Cagliari Calcio,Torino FC,3.0,2.0,5
+it.1,Matchday 8,2024-10-20,20:45,AS Roma,FC Internazionale Milano,0.0,1.0,1
+it.1,Matchday 8,2024-10-21,20:45,Hellas Verona FC,AC Monza,0.0,3.0,3
+it.1,Matchday 9,2024-10-25,18:30,Udinese Calcio,Cagliari Calcio,2.0,0.0,2
+it.1,Matchday 9,2024-10-25,20:45,Torino FC,Como 1907,1.0,0.0,1
+it.1,Matchday 9,2024-10-26,15:00,SSC Napoli,US Lecce,1.0,0.0,1
+it.1,Matchday 9,2024-10-26,20:45,Atalanta BC,Hellas Verona FC,6.0,1.0,7
+it.1,Matchday 9,2024-10-27,12:30,Parma Calcio 1913,Empoli FC,1.0,1.0,2
+it.1,Matchday 9,2024-10-27,15:00,SS Lazio,Genoa CFC,3.0,0.0,3
+it.1,Matchday 9,2024-10-27,15:00,AC Monza,Venezia FC,2.0,2.0,4
+it.1,Matchday 9,2024-10-27,18:00,FC Internazionale Milano,Juventus FC,4.0,4.0,8
+it.1,Matchday 9,2024-10-27,20:45,ACF Fiorentina,AS Roma,5.0,1.0,6
+it.1,Matchday 10,2024-10-29,18:30,Cagliari Calcio,Bologna FC 1909,0.0,2.0,2
+it.1,Matchday 10,2024-10-29,18:30,US Lecce,Hellas Verona FC,1.0,0.0,1
+it.1,Matchday 10,2024-10-29,20:45,AC Milan,SSC Napoli,0.0,2.0,2
+it.1,Matchday 10,2024-10-30,18:30,Empoli FC,FC Internazionale Milano,0.0,3.0,3
+it.1,Matchday 10,2024-10-30,18:30,Venezia FC,Udinese Calcio,3.0,2.0,5
+it.1,Matchday 10,2024-10-30,20:45,Atalanta BC,AC Monza,2.0,0.0,2
+it.1,Matchday 10,2024-10-30,20:45,Juventus FC,Parma Calcio 1913,2.0,2.0,4
+it.1,Matchday 10,2024-10-31,18:30,Genoa CFC,ACF Fiorentina,0.0,1.0,1
+it.1,Matchday 10,2024-10-31,20:45,Como 1907,SS Lazio,1.0,5.0,6
+it.1,Matchday 10,2024-10-31,20:45,AS Roma,Torino FC,1.0,0.0,1
+it.1,Matchday 11,2024-11-02,15:00,Bologna FC 1909,US Lecce,1.0,0.0,1
+it.1,Matchday 11,2024-11-02,18:00,Udinese Calcio,Juventus FC,0.0,2.0,2
+it.1,Matchday 11,2024-11-02,20:45,AC Monza,AC Milan,0.0,1.0,1
+it.1,Matchday 11,2024-11-03,12:30,SSC Napoli,Atalanta BC,0.0,3.0,3
+it.1,Matchday 11,2024-11-03,15:00,Torino FC,ACF Fiorentina,0.0,1.0,1
+it.1,Matchday 11,2024-11-03,18:00,Hellas Verona FC,AS Roma,3.0,2.0,5
+it.1,Matchday 11,2024-11-03,20:45,FC Internazionale Milano,Venezia FC,1.0,0.0,1
+it.1,Matchday 11,2024-11-04,18:30,Empoli FC,Como 1907,1.0,0.0,1
+it.1,Matchday 11,2024-11-04,18:30,Parma Calcio 1913,Genoa CFC,0.0,1.0,1
+it.1,Matchday 11,2024-11-04,20:45,SS Lazio,Cagliari Calcio,2.0,1.0,3
+it.1,Matchday 12,2024-11-07,20:45,Genoa CFC,Como 1907,1.0,1.0,2
+it.1,Matchday 12,2024-11-08,20:45,US Lecce,Empoli FC,1.0,1.0,2
+it.1,Matchday 12,2024-11-09,15:00,Venezia FC,Parma Calcio 1913,1.0,2.0,3
+it.1,Matchday 12,2024-11-09,18:00,Cagliari Calcio,AC Milan,3.0,3.0,6
+it.1,Matchday 12,2024-11-09,20:45,Juventus FC,Torino FC,2.0,0.0,2
+it.1,Matchday 12,2024-11-10,12:30,Atalanta BC,Udinese Calcio,2.0,1.0,3
+it.1,Matchday 12,2024-11-10,15:00,ACF Fiorentina,Hellas Verona FC,3.0,1.0,4
+it.1,Matchday 12,2024-11-10,15:00,AS Roma,Bologna FC 1909,2.0,3.0,5
+it.1,Matchday 12,2024-11-10,18:00,AC Monza,SS Lazio,0.0,1.0,1
+it.1,Matchday 12,2024-11-10,20:45,FC Internazionale Milano,SSC Napoli,1.0,1.0,2
+it.1,Matchday 13,2024-11-23,15:00,Hellas Verona FC,FC Internazionale Milano,0.0,5.0,5
+it.1,Matchday 13,2024-11-23,18:00,AC Milan,Juventus FC,0.0,0.0,0
+it.1,Matchday 13,2024-11-23,20:45,Parma Calcio 1913,Atalanta BC,1.0,3.0,4
+it.1,Matchday 13,2024-11-24,12:30,Genoa CFC,Cagliari Calcio,2.0,2.0,4
+it.1,Matchday 13,2024-11-24,15:00,Como 1907,ACF Fiorentina,0.0,2.0,2
+it.1,Matchday 13,2024-11-24,15:00,Torino FC,AC Monza,1.0,1.0,2
+it.1,Matchday 13,2024-11-24,18:00,SSC Napoli,AS Roma,1.0,0.0,1
+it.1,Matchday 13,2024-11-24,20:45,SS Lazio,Bologna FC 1909,3.0,0.0,3
+it.1,Matchday 13,2024-11-25,18:30,Empoli FC,Udinese Calcio,1.0,1.0,2
+it.1,Matchday 13,2024-11-25,20:45,Venezia FC,US Lecce,0.0,1.0,1
+it.1,Matchday 14,2024-11-29,20:45,Cagliari Calcio,Hellas Verona FC,1.0,0.0,1
+it.1,Matchday 14,2024-11-30,15:00,Como 1907,AC Monza,1.0,1.0,2
+it.1,Matchday 14,2024-11-30,18:00,AC Milan,Empoli FC,3.0,0.0,3
+it.1,Matchday 14,2024-11-30,20:45,Bologna FC 1909,Venezia FC,3.0,0.0,3
+it.1,Matchday 14,2024-12-01,12:30,Udinese Calcio,Genoa CFC,0.0,2.0,2
+it.1,Matchday 14,2024-12-01,15:00,Parma Calcio 1913,SS Lazio,3.0,1.0,4
+it.1,Matchday 14,2024-12-01,15:00,Torino FC,SSC Napoli,0.0,1.0,1
+it.1,Matchday 14,2024-12-01,20:45,US Lecce,Juventus FC,1.0,1.0,2
+it.1,Matchday 14,2024-12-02,20:45,AS Roma,Atalanta BC,0.0,2.0,2
+it.1,Matchday 15,2024-12-06,18:30,FC Internazionale Milano,Parma Calcio 1913,3.0,1.0,4
+it.1,Matchday 15,2024-12-06,20:45,Atalanta BC,AC Milan,2.0,1.0,3
+it.1,Matchday 15,2024-12-07,15:00,Genoa CFC,Torino FC,0.0,0.0,0
+it.1,Matchday 15,2024-12-07,18:00,Juventus FC,Bologna FC 1909,2.0,2.0,4
+it.1,Matchday 15,2024-12-07,20:45,AS Roma,US Lecce,4.0,1.0,5
+it.1,Matchday 15,2024-12-08,12:30,ACF Fiorentina,Cagliari Calcio,1.0,0.0,1
+it.1,Matchday 15,2024-12-08,15:00,Hellas Verona FC,Empoli FC,1.0,4.0,5
+it.1,Matchday 15,2024-12-08,18:00,Venezia FC,Como 1907,2.0,2.0,4
+it.1,Matchday 15,2024-12-08,20:45,SSC Napoli,SS Lazio,0.0,1.0,1
+it.1,Matchday 15,2024-12-09,20:45,AC Monza,Udinese Calcio,1.0,2.0,3
+it.1,Matchday 16,2024-12-13,20:45,Empoli FC,Torino FC,0.0,1.0,1
+it.1,Matchday 16,2024-12-14,15:00,Cagliari Calcio,Atalanta BC,0.0,1.0,1
+it.1,Matchday 16,2024-12-14,18:00,Udinese Calcio,SSC Napoli,1.0,3.0,4
+it.1,Matchday 16,2024-12-14,20:45,Juventus FC,Venezia FC,2.0,2.0,4
+it.1,Matchday 16,2024-12-15,12:30,US Lecce,AC Monza,2.0,1.0,3
+it.1,Matchday 16,2024-12-15,15:00,Bologna FC 1909,ACF Fiorentina,1.0,0.0,1
+it.1,Matchday 16,2024-12-15,15:00,Parma Calcio 1913,Hellas Verona FC,2.0,3.0,5
+it.1,Matchday 16,2024-12-15,18:00,Como 1907,AS Roma,2.0,0.0,2
+it.1,Matchday 16,2024-12-15,20:45,AC Milan,Genoa CFC,0.0,0.0,0
+it.1,Matchday 16,2024-12-16,20:45,SS Lazio,FC Internazionale Milano,0.0,6.0,6
+it.1,Matchday 17,2024-12-20,20:45,Hellas Verona FC,AC Milan,0.0,1.0,1
+it.1,Matchday 17,2024-12-21,15:00,Torino FC,Bologna FC 1909,0.0,2.0,2
+it.1,Matchday 17,2024-12-21,18:00,Genoa CFC,SSC Napoli,1.0,2.0,3
+it.1,Matchday 17,2024-12-21,20:45,US Lecce,SS Lazio,1.0,2.0,3
+it.1,Matchday 17,2024-12-22,12:30,AS Roma,Parma Calcio 1913,5.0,0.0,5
+it.1,Matchday 17,2024-12-22,15:00,Venezia FC,Cagliari Calcio,2.0,1.0,3
+it.1,Matchday 17,2024-12-22,18:00,Atalanta BC,Empoli FC,3.0,2.0,5
+it.1,Matchday 17,2024-12-22,20:45,AC Monza,Juventus FC,1.0,2.0,3
+it.1,Matchday 17,2024-12-23,18:30,ACF Fiorentina,Udinese Calcio,1.0,2.0,3
+it.1,Matchday 17,2024-12-23,20:45,FC Internazionale Milano,Como 1907,2.0,0.0,2
+it.1,Matchday 18,2024-12-28,15:00,Empoli FC,Genoa CFC,1.0,2.0,3
+it.1,Matchday 18,2024-12-28,15:00,Parma Calcio 1913,AC Monza,2.0,1.0,3
+it.1,Matchday 18,2024-12-28,18:00,Cagliari Calcio,FC Internazionale Milano,0.0,3.0,3
+it.1,Matchday 18,2024-12-28,20:45,SS Lazio,Atalanta BC,1.0,1.0,2
+it.1,Matchday 18,2024-12-29,12:30,Udinese Calcio,Torino FC,2.0,2.0,4
+it.1,Matchday 18,2024-12-29,15:00,SSC Napoli,Venezia FC,1.0,0.0,1
+it.1,Matchday 18,2024-12-29,18:00,Juventus FC,ACF Fiorentina,2.0,2.0,4
+it.1,Matchday 18,2024-12-29,20:45,AC Milan,AS Roma,1.0,1.0,2
+it.1,Matchday 18,2024-12-30,18:30,Como 1907,US Lecce,2.0,0.0,2
+it.1,Matchday 18,2024-12-30,20:45,Bologna FC 1909,Hellas Verona FC,2.0,3.0,5
+it.1,Matchday 19,2025-01-04,15:00,Venezia FC,Empoli FC,1.0,1.0,2
+it.1,Matchday 19,2025-01-04,18:00,ACF Fiorentina,SSC Napoli,0.0,3.0,3
+it.1,Matchday 19,2025-01-04,20:45,Hellas Verona FC,Udinese Calcio,0.0,0.0,0
+it.1,Matchday 19,2025-01-05,12:30,AC Monza,Cagliari Calcio,1.0,2.0,3
+it.1,Matchday 19,2025-01-05,15:00,US Lecce,Genoa CFC,0.0,0.0,0
+it.1,Matchday 19,2025-01-05,18:00,Torino FC,Parma Calcio 1913,0.0,0.0,0
+it.1,Matchday 19,2025-01-05,20:45,AS Roma,SS Lazio,2.0,0.0,2
+it.1,Matchday 20,2025-01-10,20:45,SS Lazio,Como 1907,1.0,1.0,2
+it.1,Matchday 20,2025-01-11,15:00,Empoli FC,US Lecce,1.0,3.0,4
+it.1,Matchday 20,2025-01-11,15:00,Udinese Calcio,Atalanta BC,0.0,0.0,0
+it.1,Matchday 20,2025-01-11,18:00,Torino FC,Juventus FC,1.0,1.0,2
+it.1,Matchday 20,2025-01-11,20:45,AC Milan,Cagliari Calcio,1.0,1.0,2
+it.1,Matchday 20,2025-01-12,12:30,Genoa CFC,Parma Calcio 1913,1.0,0.0,1
+it.1,Matchday 20,2025-01-12,15:00,Venezia FC,FC Internazionale Milano,0.0,1.0,1
+it.1,Matchday 20,2025-01-12,18:00,Bologna FC 1909,AS Roma,2.0,2.0,4
+it.1,Matchday 20,2025-01-12,20:45,SSC Napoli,Hellas Verona FC,2.0,0.0,2
+it.1,Matchday 20,2025-01-13,20:45,AC Monza,ACF Fiorentina,2.0,1.0,3
+it.1,Matchday 19,2025-01-14,18:30,Como 1907,AC Milan,1.0,2.0,3
+it.1,Matchday 19,2025-01-14,20:45,Atalanta BC,Juventus FC,1.0,1.0,2
+it.1,Matchday 19,2025-01-15,20:45,FC Internazionale Milano,Bologna FC 1909,2.0,2.0,4
+it.1,Matchday 21,2025-01-17,20:45,AS Roma,Genoa CFC,3.0,1.0,4
+it.1,Matchday 21,2025-01-18,15:00,Bologna FC 1909,AC Monza,3.0,1.0,4
+it.1,Matchday 21,2025-01-18,18:00,Juventus FC,AC Milan,2.0,0.0,2
+it.1,Matchday 21,2025-01-18,20:45,Atalanta BC,SSC Napoli,2.0,3.0,5
+it.1,Matchday 21,2025-01-19,12:30,ACF Fiorentina,Torino FC,1.0,1.0,2
+it.1,Matchday 21,2025-01-19,15:00,Cagliari Calcio,US Lecce,4.0,1.0,5
+it.1,Matchday 21,2025-01-19,15:00,Parma Calcio 1913,Venezia FC,1.0,1.0,2
+it.1,Matchday 21,2025-01-19,18:00,Hellas Verona FC,SS Lazio,0.0,3.0,3
+it.1,Matchday 21,2025-01-19,20:45,FC Internazionale Milano,Empoli FC,3.0,1.0,4
+it.1,Matchday 21,2025-01-20,20:45,Como 1907,Udinese Calcio,4.0,1.0,5
+it.1,Matchday 22,2025-01-24,20:45,Torino FC,Cagliari Calcio,2.0,0.0,2
+it.1,Matchday 22,2025-01-25,15:00,Como 1907,Atalanta BC,1.0,2.0,3
+it.1,Matchday 22,2025-01-25,18:00,SSC Napoli,Juventus FC,2.0,1.0,3
+it.1,Matchday 22,2025-01-25,20:45,Empoli FC,Bologna FC 1909,1.0,1.0,2
+it.1,Matchday 22,2025-01-26,12:30,AC Milan,Parma Calcio 1913,3.0,2.0,5
+it.1,Matchday 22,2025-01-26,15:00,Udinese Calcio,AS Roma,1.0,2.0,3
+it.1,Matchday 22,2025-01-26,18:00,US Lecce,FC Internazionale Milano,0.0,4.0,4
+it.1,Matchday 22,2025-01-26,20:45,SS Lazio,ACF Fiorentina,1.0,2.0,3
+it.1,Matchday 22,2025-01-27,18:30,Venezia FC,Hellas Verona FC,1.0,1.0,2
+it.1,Matchday 22,2025-01-27,20:45,Genoa CFC,AC Monza,2.0,0.0,2
+it.1,Matchday 23,2025-01-31,20:45,Parma Calcio 1913,US Lecce,1.0,3.0,4
+it.1,Matchday 23,2025-02-01,15:00,AC Monza,Hellas Verona FC,0.0,1.0,1
+it.1,Matchday 23,2025-02-01,15:00,Udinese Calcio,Venezia FC,3.0,2.0,5
+it.1,Matchday 23,2025-02-01,18:00,Atalanta BC,Torino FC,1.0,1.0,2
+it.1,Matchday 23,2025-02-01,20:45,Bologna FC 1909,Como 1907,2.0,0.0,2
+it.1,Matchday 23,2025-02-02,12:30,Juventus FC,Empoli FC,4.0,1.0,5
+it.1,Matchday 23,2025-02-02,15:00,ACF Fiorentina,Genoa CFC,2.0,1.0,3
+it.1,Matchday 23,2025-02-02,18:00,AC Milan,FC Internazionale Milano,1.0,1.0,2
+it.1,Matchday 23,2025-02-02,20:45,AS Roma,SSC Napoli,1.0,1.0,2
+it.1,Matchday 23,2025-02-03,20:45,Cagliari Calcio,SS Lazio,1.0,2.0,3
+it.1,Matchday 14,2025-02-06,20:45,ACF Fiorentina,FC Internazionale Milano,3.0,0.0,3
+it.1,Matchday 24,2025-02-07,20:45,Como 1907,Juventus FC,1.0,2.0,3
+it.1,Matchday 24,2025-02-08,15:00,Hellas Verona FC,Atalanta BC,0.0,5.0,5
+it.1,Matchday 24,2025-02-08,18:00,Empoli FC,AC Milan,0.0,2.0,2
+it.1,Matchday 24,2025-02-08,20:45,Torino FC,Genoa CFC,1.0,1.0,2
+it.1,Matchday 24,2025-02-09,12:30,Venezia FC,AS Roma,0.0,1.0,1
+it.1,Matchday 24,2025-02-09,15:00,Cagliari Calcio,Parma Calcio 1913,2.0,1.0,3
+it.1,Matchday 24,2025-02-09,15:00,SS Lazio,AC Monza,5.0,1.0,6
+it.1,Matchday 24,2025-02-09,18:00,US Lecce,Bologna FC 1909,0.0,0.0,0
+it.1,Matchday 24,2025-02-09,20:45,SSC Napoli,Udinese Calcio,1.0,1.0,2
+it.1,Matchday 24,2025-02-10,20:45,FC Internazionale Milano,ACF Fiorentina,2.0,1.0,3
+it.1,Matchday 25,2025-02-14,20:45,Bologna FC 1909,Torino FC,3.0,2.0,5
+it.1,Matchday 25,2025-02-15,15:00,Atalanta BC,Cagliari Calcio,0.0,0.0,0
+it.1,Matchday 25,2025-02-15,18:00,SS Lazio,SSC Napoli,2.0,2.0,4
+it.1,Matchday 25,2025-02-15,20:45,AC Milan,Hellas Verona FC,1.0,0.0,1
+it.1,Matchday 25,2025-02-16,12:30,ACF Fiorentina,Como 1907,0.0,2.0,2
+it.1,Matchday 25,2025-02-16,15:00,AC Monza,US Lecce,0.0,0.0,0
+it.1,Matchday 25,2025-02-16,15:00,Udinese Calcio,Empoli FC,3.0,0.0,3
+it.1,Matchday 25,2025-02-16,18:00,Parma Calcio 1913,AS Roma,0.0,1.0,1
+it.1,Matchday 25,2025-02-16,20:45,Juventus FC,FC Internazionale Milano,1.0,0.0,1
+it.1,Matchday 25,2025-02-17,20:45,Genoa CFC,Venezia FC,2.0,0.0,2
+it.1,Matchday 26,2025-02-21,20:45,US Lecce,Udinese Calcio,0.0,1.0,1
+it.1,Matchday 26,2025-02-22,15:00,Parma Calcio 1913,Bologna FC 1909,2.0,0.0,2
+it.1,Matchday 26,2025-02-22,15:00,Venezia FC,SS Lazio,0.0,0.0,0
+it.1,Matchday 26,2025-02-22,18:00,Torino FC,AC Milan,2.0,1.0,3
+it.1,Matchday 26,2025-02-22,20:45,FC Internazionale Milano,Genoa CFC,1.0,0.0,1
+it.1,Matchday 26,2025-02-23,12:30,Como 1907,SSC Napoli,2.0,1.0,3
+it.1,Matchday 26,2025-02-23,15:00,Hellas Verona FC,ACF Fiorentina,1.0,0.0,1
+it.1,Matchday 26,2025-02-23,18:00,Empoli FC,Atalanta BC,0.0,5.0,5
+it.1,Matchday 26,2025-02-23,20:45,Cagliari Calcio,Juventus FC,0.0,1.0,1
+it.1,Matchday 26,2025-02-24,20:45,AS Roma,AC Monza,4.0,0.0,4
+it.1,Matchday 9,2025-02-27,20:45,Bologna FC 1909,AC Milan,2.0,1.0,3
+it.1,Matchday 27,2025-02-28,20:45,ACF Fiorentina,US Lecce,1.0,0.0,1
+it.1,Matchday 27,2025-03-01,15:00,Atalanta BC,Venezia FC,0.0,0.0,0
+it.1,Matchday 27,2025-03-01,18:00,SSC Napoli,FC Internazionale Milano,1.0,1.0,2
+it.1,Matchday 27,2025-03-01,20:45,Udinese Calcio,Parma Calcio 1913,1.0,0.0,1
+it.1,Matchday 27,2025-03-02,12:30,AC Monza,Torino FC,0.0,2.0,2
+it.1,Matchday 27,2025-03-02,15:00,Bologna FC 1909,Cagliari Calcio,2.0,1.0,3
+it.1,Matchday 27,2025-03-02,15:00,Genoa CFC,Empoli FC,1.0,1.0,2
+it.1,Matchday 27,2025-03-02,18:00,AS Roma,Como 1907,2.0,1.0,3
+it.1,Matchday 27,2025-03-02,20:45,AC Milan,SS Lazio,1.0,2.0,3
+it.1,Matchday 27,2025-03-03,20:45,Juventus FC,Hellas Verona FC,2.0,0.0,2
+it.1,Matchday 28,2025-03-07,20:45,Cagliari Calcio,Genoa CFC,1.0,1.0,2
+it.1,Matchday 28,2025-03-08,15:00,Como 1907,Venezia FC,1.0,1.0,2
+it.1,Matchday 28,2025-03-08,15:00,Parma Calcio 1913,Torino FC,2.0,2.0,4
+it.1,Matchday 28,2025-03-08,18:00,US Lecce,AC Milan,2.0,3.0,5
+it.1,Matchday 28,2025-03-08,20:45,FC Internazionale Milano,AC Monza,3.0,2.0,5
+it.1,Matchday 28,2025-03-09,12:30,Hellas Verona FC,Bologna FC 1909,1.0,2.0,3
+it.1,Matchday 28,2025-03-09,15:00,SSC Napoli,ACF Fiorentina,2.0,1.0,3
+it.1,Matchday 28,2025-03-09,18:00,Empoli FC,AS Roma,0.0,1.0,1
+it.1,Matchday 28,2025-03-09,20:45,Juventus FC,Atalanta BC,0.0,4.0,4
+it.1,Matchday 28,2025-03-10,20:45,SS Lazio,Udinese Calcio,1.0,1.0,2
+it.1,Matchday 29,2025-03-14,20:45,Genoa CFC,US Lecce,2.0,1.0,3
+it.1,Matchday 29,2025-03-15,15:00,AC Monza,Parma Calcio 1913,1.0,1.0,2
+it.1,Matchday 29,2025-03-15,15:00,Udinese Calcio,Hellas Verona FC,0.0,1.0,1
+it.1,Matchday 29,2025-03-15,18:00,AC Milan,Como 1907,2.0,1.0,3
+it.1,Matchday 29,2025-03-15,20:45,Torino FC,Empoli FC,1.0,0.0,1
+it.1,Matchday 29,2025-03-16,12:30,Venezia FC,SSC Napoli,0.0,0.0,0
+it.1,Matchday 29,2025-03-16,15:00,Bologna FC 1909,SS Lazio,5.0,0.0,5
+it.1,Matchday 29,2025-03-16,16:00,AS Roma,Cagliari Calcio,1.0,0.0,1
+it.1,Matchday 29,2025-03-16,18:00,ACF Fiorentina,Juventus FC,3.0,0.0,3
+it.1,Matchday 29,2025-03-16,20:45,Atalanta BC,FC Internazionale Milano,0.0,2.0,2
+it.1,Matchday 30,2025-03-29,15:00,Como 1907,Empoli FC,1.0,1.0,2
+it.1,Matchday 30,2025-03-29,15:00,Venezia FC,Bologna FC 1909,0.0,1.0,1
+it.1,Matchday 30,2025-03-29,18:00,Juventus FC,Genoa CFC,1.0,0.0,1
+it.1,Matchday 30,2025-03-29,20:45,US Lecce,AS Roma,0.0,1.0,1
+it.1,Matchday 30,2025-03-30,12:30,Cagliari Calcio,AC Monza,3.0,0.0,3
+it.1,Matchday 30,2025-03-30,15:00,ACF Fiorentina,Atalanta BC,1.0,0.0,1
+it.1,Matchday 30,2025-03-30,18:00,FC Internazionale Milano,Udinese Calcio,2.0,1.0,3
+it.1,Matchday 30,2025-03-30,20:45,SSC Napoli,AC Milan,2.0,1.0,3
+it.1,Matchday 30,2025-03-31,18:30,Hellas Verona FC,Parma Calcio 1913,0.0,0.0,0
+it.1,Matchday 30,2025-03-31,20:45,SS Lazio,Torino FC,1.0,1.0,2
+it.1,Matchday 31,2025-04-04,20:45,Genoa CFC,Udinese Calcio,1.0,0.0,1
+it.1,Matchday 31,2025-04-05,15:00,AC Monza,Como 1907,1.0,3.0,4
+it.1,Matchday 31,2025-04-05,18:00,Parma Calcio 1913,FC Internazionale Milano,2.0,2.0,4
+it.1,Matchday 31,2025-04-05,20:45,AC Milan,ACF Fiorentina,2.0,2.0,4
+it.1,Matchday 31,2025-04-06,12:30,US Lecce,Venezia FC,1.0,1.0,2
+it.1,Matchday 31,2025-04-06,15:00,Empoli FC,Cagliari Calcio,0.0,0.0,0
+it.1,Matchday 31,2025-04-06,15:00,Torino FC,Hellas Verona FC,1.0,1.0,2
+it.1,Matchday 31,2025-04-06,18:00,Atalanta BC,SS Lazio,0.0,1.0,1
+it.1,Matchday 31,2025-04-06,20:45,AS Roma,Juventus FC,1.0,1.0,2
+it.1,Matchday 31,2025-04-07,20:45,Bologna FC 1909,SSC Napoli,1.0,1.0,2
+it.1,Matchday 32,2025-04-11,20:45,Udinese Calcio,AC Milan,0.0,4.0,4
+it.1,Matchday 32,2025-04-12,15:00,Venezia FC,AC Monza,1.0,0.0,1
+it.1,Matchday 32,2025-04-12,18:00,FC Internazionale Milano,Cagliari Calcio,3.0,1.0,4
+it.1,Matchday 32,2025-04-12,20:45,Juventus FC,US Lecce,2.0,1.0,3
+it.1,Matchday 32,2025-04-13,12:30,Atalanta BC,Bologna FC 1909,2.0,0.0,2
+it.1,Matchday 32,2025-04-13,15:00,ACF Fiorentina,Parma Calcio 1913,0.0,0.0,0
+it.1,Matchday 32,2025-04-13,15:00,Hellas Verona FC,Genoa CFC,0.0,0.0,0
+it.1,Matchday 32,2025-04-13,18:00,Como 1907,Torino FC,1.0,0.0,1
+it.1,Matchday 32,2025-04-13,20:45,SS Lazio,AS Roma,1.0,1.0,2
+it.1,Matchday 32,2025-04-14,20:45,SSC Napoli,Empoli FC,3.0,0.0,3
+it.1,Matchday 33,2025-04-19,15:00,US Lecce,Como 1907,0.0,3.0,3
+it.1,Matchday 33,2025-04-19,18:00,AC Monza,SSC Napoli,0.0,1.0,1
+it.1,Matchday 33,2025-04-19,20:45,AS Roma,Hellas Verona FC,1.0,0.0,1
+it.1,Matchday 33,2025-04-20,15:00,Empoli FC,Venezia FC,2.0,2.0,4
+it.1,Matchday 33,2025-04-20,18:00,Bologna FC 1909,FC Internazionale Milano,1.0,0.0,1
+it.1,Matchday 33,2025-04-20,20:45,AC Milan,Atalanta BC,0.0,1.0,1
+it.1,Matchday 33,2025-04-23,18:30,Cagliari Calcio,ACF Fiorentina,1.0,2.0,3
+it.1,Matchday 33,2025-04-23,18:30,Genoa CFC,SS Lazio,0.0,2.0,2
+it.1,Matchday 33,2025-04-23,18:30,Parma Calcio 1913,Juventus FC,1.0,0.0,1
+it.1,Matchday 33,2025-04-23,18:30,Torino FC,Udinese Calcio,2.0,0.0,2
+it.1,Matchday 34,2025-04-27,12:30,Como 1907,Genoa CFC,1.0,0.0,1
+it.1,Matchday 34,2025-04-27,12:30,Venezia FC,AC Milan,0.0,2.0,2
+it.1,Matchday 34,2025-04-27,15:00,ACF Fiorentina,Empoli FC,2.0,1.0,3
+it.1,Matchday 34,2025-04-27,15:00,FC Internazionale Milano,AS Roma,0.0,1.0,1
+it.1,Matchday 34,2025-04-27,18:00,Juventus FC,AC Monza,2.0,0.0,2
+it.1,Matchday 34,2025-04-27,20:45,Atalanta BC,US Lecce,1.0,1.0,2
+it.1,Matchday 34,2025-04-27,20:45,SSC Napoli,Torino FC,2.0,0.0,2
+it.1,Matchday 34,2025-04-28,18:30,Udinese Calcio,Bologna FC 1909,0.0,0.0,0
+it.1,Matchday 34,2025-04-28,20:45,Hellas Verona FC,Cagliari Calcio,0.0,2.0,2
+it.1,Matchday 34,2025-04-28,20:45,SS Lazio,Parma Calcio 1913,2.0,2.0,4
+it.1,Matchday 35,2025-05-02,20:45,Torino FC,Venezia FC,1.0,1.0,2
+it.1,Matchday 35,2025-05-03,15:00,Cagliari Calcio,Udinese Calcio,1.0,2.0,3
+it.1,Matchday 35,2025-05-03,15:00,Parma Calcio 1913,Como 1907,0.0,1.0,1
+it.1,Matchday 35,2025-05-03,18:00,US Lecce,SSC Napoli,0.0,1.0,1
+it.1,Matchday 35,2025-05-03,20:45,FC Internazionale Milano,Hellas Verona FC,1.0,0.0,1
+it.1,Matchday 35,2025-05-04,12:30,Empoli FC,SS Lazio,0.0,1.0,1
+it.1,Matchday 35,2025-05-04,15:00,AC Monza,Atalanta BC,0.0,4.0,4
+it.1,Matchday 35,2025-05-04,18:00,AS Roma,ACF Fiorentina,1.0,0.0,1
+it.1,Matchday 35,2025-05-04,20:45,Bologna FC 1909,Juventus FC,1.0,1.0,2
+it.1,Matchday 35,2025-05-05,20:45,Genoa CFC,AC Milan,1.0,2.0,3
+it.1,Matchday 36,2025-05-09,20:45,AC Milan,Bologna FC 1909,3.0,1.0,4
+it.1,Matchday 36,2025-05-10,15:00,Como 1907,Cagliari Calcio,3.0,1.0,4
+it.1,Matchday 36,2025-05-10,18:00,SS Lazio,Juventus FC,1.0,1.0,2
+it.1,Matchday 36,2025-05-10,20:45,Empoli FC,Parma Calcio 1913,2.0,1.0,3
+it.1,Matchday 36,2025-05-11,12:30,Udinese Calcio,AC Monza,1.0,2.0,3
+it.1,Matchday 36,2025-05-11,15:00,Hellas Verona FC,US Lecce,1.0,1.0,2
+it.1,Matchday 36,2025-05-11,18:00,Torino FC,FC Internazionale Milano,0.0,2.0,2
+it.1,Matchday 36,2025-05-11,20:45,SSC Napoli,Genoa CFC,2.0,2.0,4
+it.1,Matchday 36,2025-05-12,18:30,Venezia FC,ACF Fiorentina,2.0,1.0,3
+it.1,Matchday 36,2025-05-12,20:45,Atalanta BC,AS Roma,2.0,1.0,3
+it.1,Matchday 37,2025-05-17,20:45,Genoa CFC,Atalanta BC,2.0,3.0,5
+it.1,Matchday 37,2025-05-18,20:45,Cagliari Calcio,Venezia FC,3.0,0.0,3
+it.1,Matchday 37,2025-05-18,20:45,ACF Fiorentina,Bologna FC 1909,3.0,2.0,5
+it.1,Matchday 37,2025-05-18,20:45,Hellas Verona FC,Como 1907,1.0,1.0,2
+it.1,Matchday 37,2025-05-18,20:45,FC Internazionale Milano,SS Lazio,2.0,2.0,4
+it.1,Matchday 37,2025-05-18,20:45,Juventus FC,Udinese Calcio,2.0,0.0,2
+it.1,Matchday 37,2025-05-18,20:45,US Lecce,Torino FC,1.0,0.0,1
+it.1,Matchday 37,2025-05-18,20:45,AC Monza,Empoli FC,1.0,3.0,4
+it.1,Matchday 37,2025-05-18,20:45,Parma Calcio 1913,SSC Napoli,0.0,0.0,0
+it.1,Matchday 37,2025-05-18,20:45,AS Roma,AC Milan,3.0,1.0,4

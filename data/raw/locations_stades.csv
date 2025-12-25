@@ -1,0 +1,97 @@
+nom_equipe,ville,stade,latitude,longitude,capacite
+Paris Saint-Germain FC,Paris,Parc des Princes,48.8414,2.253,47929
+Olympique de Marseille,Marseille,Stade Vélodrome,43.2698,5.3959,67394
+AS Monaco FC,Monaco,Stade Louis II,43.7275,7.4156,18523
+OGC Nice,Nice,Allianz Riviera,43.7053,7.1925,36178
+Lille OSC,Lille,Stade Pierre-Mauroy,50.6117,3.1304,50186
+Olympique Lyonnais,Lyon,Groupama Stadium,45.7653,4.9822,59186
+RC Strasbourg Alsace,Strasbourg,Stade de la Meinau,48.56,7.7553,29230
+Racing Club de Lens,Lens,Stade Bollaert-Delelis,50.4329,2.8153,38223
+Stade Brestois 29,Brest,Stade Francis-Le Blé,48.3895,-4.4616,15931
+Toulouse FC,Toulouse,Stadium de Toulouse,43.5831,1.4341,33150
+AJ Auxerre,Auxerre,Stade de l'Abbé-Deschamps,47.7803,3.5831,18541
+Stade Rennais FC 1901,Rennes,Roazhon Park,48.1075,-1.7128,29778
+FC Nantes,Nantes,Stade de la Beaujoire,47.2561,-1.5247,38285
+Angers SCO,Angers,Stade Raymond-Kopa,47.4606,-0.5311,18752
+Le Havre AC,Le Havre,Stade Océane,49.5025,0.1619,25178
+Stade de Reims,Reims,Stade Auguste-Delaune,49.2467,4.025,21029
+AS Saint-Étienne,Saint-Étienne,Stade Geoffroy-Guichard,45.4608,4.39,42000
+Montpellier HSC,Montpellier,Stade de la Mosson,43.6225,3.8125,32900
+Liverpool FC,Liverpool,Anfield,53.4308,-2.9609,61276
+Arsenal FC,Londres,Emirates Stadium,51.5549,-0.1084,60704
+Chelsea FC,Londres,Stamford Bridge,51.4817,-0.191,40341
+Manchester City FC,Manchester,Etihad Stadium,53.4831,-2.2004,55017
+Manchester United FC,Manchester,Old Trafford,53.4631,-2.2913,74310
+Tottenham Hotspur FC,Londres,Tottenham Hotspur Stadium,51.6043,-0.0663,62850
+Newcastle United FC,Newcastle,St James' Park,54.9756,-1.6217,52305
+Brighton & Hove Albion FC,Brighton,Amex Stadium,50.8619,-0.0836,31876
+Aston Villa FC,Birmingham,Villa Park,52.5092,-1.8847,42788
+Nottingham Forest FC,Nottingham,City Ground,52.9399,-1.1328,30602
+Fulham FC,Londres,Craven Cottage,51.4749,-0.2217,29600
+AFC Bournemouth,Bournemouth,Vitality Stadium,50.7352,-1.8384,11379
+Brentford FC,Londres,Gtech Community Stadium,51.4907,-0.2886,17250
+West Ham United FC,Londres,London Stadium,51.5387,-0.0166,62500
+Crystal Palace FC,Londres,Selhurst Park,51.3983,-0.0855,25486
+Everton FC,Liverpool,Goodison Park,53.4387,-2.9663,39414
+Leicester City FC,Leicester,King Power Stadium,52.6204,-1.1422,32312
+Wolverhampton Wanderers FC,Wolverhampton,Molineux Stadium,52.5903,-2.1306,32050
+Ipswich Town FC,Ipswich,Portman Road,52.0547,1.1447,30311
+Southampton FC,Southampton,St Mary's Stadium,50.9058,-1.391,32384
+FC Bayern München,Munich,Allianz Arena,48.2188,11.6247,75024
+Bayer 04 Leverkusen,Leverkusen,BayArena,51.0384,7.0022,30210
+VfB Stuttgart,Stuttgart,MHPArena,48.7924,9.2319,60449
+RB Leipzig,Leipzig,Red Bull Arena,51.3459,12.3484,47069
+Borussia Dortmund,Dortmund,Signal Iduna Park,51.4926,7.4518,81365
+Eintracht Frankfurt,Francfort,Deutsche Bank Park,50.0686,8.6454,58000
+SC Freiburg,Fribourg,Europa-Park Stadion,48.0225,7.8297,34700
+TSG 1899 Hoffenheim,Sinsheim,PreZero Arena,49.2389,8.8875,30150
+Werder Bremen,Brême,Weserstadion,53.0664,8.8377,42100
+VfL Wolfsburg,Wolfsbourg,Volkswagen Arena,52.4326,10.8039,30000
+1. FC Union Berlin,Berlin,Stadion An der Alten Försterei,52.4572,13.568,22012
+FC Augsburg,Augsbourg,WWK Arena,48.3236,10.886,30660
+Borussia Mönchengladbach,Mönchengladbach,Borussia-Park,51.1747,6.3854,54057
+1. FSV Mainz 05,Mayence,Mewa Arena,49.9841,8.2243,33305
+FC St. Pauli,Hambourg,Millerntor-Stadion,53.5546,9.9674,29546
+1. FC Heidenheim 1846,Heidenheim,Voith-Arena,48.6711,10.1394,15000
+Holstein Kiel,Kiel,Holstein-Stadion,54.3489,10.1232,15034
+VfL Bochum 1848,Bochum,Vonovia Ruhrstadion,51.4897,7.2364,27599
+FC Barcelona,Barcelone,Spotify Camp Nou,41.3809,2.1228,99354
+Real Madrid CF,Madrid,Santiago Bernabéu,40.4531,-3.6883,85000
+Club Atlético de Madrid,Madrid,Metropolitano,40.4361,-3.5995,70460
+Athletic Club,Bilbao,San Mamés,43.2641,-2.9494,53289
+Villarreal CF,Villarreal,Estadio de la Cerámica,39.944,-0.1035,23500
+Real Betis,Séville,Estadio Benito Villamarín,37.3566,-5.9817,60721
+Real Sociedad de Fútbol,Saint-Sébastien,Reale Arena,43.3013,-1.9736,39500
+RCD Mallorca,Palma,Estadi Mallorca Son Moix,39.5901,2.6302,23142
+CA Osasuna,Pampelune,El Sadar,42.7967,-1.6369,23576
+Girona FC,Gérone,Estadi Montilivi,41.9608,2.8286,14286
+Sevilla FC,Séville,Ramón Sánchez Pizjuán,37.3841,-5.9706,43883
+RC Celta de Vigo,Vigo,Abanca Balaídos,42.2118,-8.7393,29000
+Rayo Vallecano,Madrid,Estadio de Vallecas,40.3918,-3.6589,14708
+UD Las Palmas,Las Palmas,Estadio de Gran Canaria,28.1004,-15.4562,32400
+Getafe CF,Getafe,Coliseum,40.3256,-3.7149,17393
+Deportivo Alavés,Vitoria-Gasteiz,Mendizorrotza,42.8371,-2.6881,19840
+RCD Espanyol de Barcelona,Barcelone,RCDE Stadium,41.3479,2.0757,40500
+CD Leganés,Leganés,Estadio Municipal de Butarque,40.3379,-3.7602,12454
+Valencia CF,Valence,Mestalla,39.4746,-0.3582,49430
+Real Valladolid CF,Valladolid,Estadio José Zorrilla,41.6444,-4.7614,27618
+SSC Napoli,Naples,Stadio Diego Armando Maradona,40.8279,14.193,54726
+Inter Milano,Milan,San Siro,45.4781,9.124,80018
+Atalanta BC,Bergame,Gewiss Stadium,45.7089,9.6811,24950
+Juventus FC,Turin,Allianz Stadium,45.1096,7.6413,41507
+SS Lazio,Rome,Stadio Olimpico,41.9341,12.4547,70634
+AC Milan,Milan,San Siro,45.4781,9.124,80018
+AS Roma,Rome,Stadio Olimpico,41.9341,12.4547,70634
+ACF Fiorentina,Florence,Stadio Artemio Franchi,43.7807,11.2823,43147
+Bologna FC 1909,Bologne,Stadio Renato Dall'Ara,44.4923,11.3098,38279
+Udinese Calcio,Udine,Bluenergy Stadium,46.0819,13.2001,25144
+Torino FC,Turin,Stadio Olimpico Grande Torino,45.0419,7.6499,28177
+Empoli FC,Empoli,Stadio Carlo Castellani,43.7265,10.9556,16800
+Genoa CFC,Gênes,Stadio Luigi Ferraris,44.4165,8.9526,36599
+Cagliari Calcio,Cagliari,Unipol Domus,39.2001,9.1375,16416
+Parma Calcio 1913,Parme,Stadio Ennio Tardini,44.7953,10.3381,22352
+Hellas Verona FC,Vérone,Stadio Marcantonio Bentegodi,45.4353,10.9686,39211
+Como 1907,Côme,Stadio Giuseppe Sinigaglia,45.8164,9.0697,13602
+AC Monza,Monza,U-Power Stadium,45.5822,9.3031,16917
+US Lecce,Lecce,Stadio Via del Mare,40.3647,18.1939,33876
+Venezia FC,Venise,Stadio Pier Luigi Penzo,45.4339,12.3642,11150

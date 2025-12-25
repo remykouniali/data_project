@@ -7,6 +7,23 @@ import pandas as pd
 import os
 
 
+def nettoyer_locations_stades(df_stades):
+    """
+    Nettoie les données de localisation des stades.
+    Supprime les lignes sans coordonnées valides.
+    """
+    df = df_stades.copy()
+    
+    # Vérifier que latitude et longitude sont bien des nombres
+    df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
+    df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
+    
+    # Supprimer les lignes où les coordonnées sont manquantes
+    df = df.dropna(subset=['latitude', 'longitude'])
+    
+    return df
+
+
 def calculer_statistiques_equipes(df_matchs, code_ligue=None):
     """
     Calcule les statistiques complètes pour chaque équipe.
@@ -121,6 +138,13 @@ def traiter_et_sauvegarder_donnees():
         matchs_tous = nettoyer_donnees_matchs(df_tous)
         matchs_tous.to_csv('data/cleaned/matchs_tous_nettoyes.csv', index=False)
         print(f"\nTotal: {len(matchs_tous)} matchs nettoyés")
+
+    # Traiter les locations de stades
+    if os.path.exists('data/raw/locations_stades.csv'):
+        df_stades = pd.read_csv('data/raw/locations_stades.csv')
+        stades_nettoyes = nettoyer_locations_stades(df_stades)
+        stades_nettoyes.to_csv('data/cleaned/locations_stades_nettoyes.csv', index=False)
+        print(f"Locations: {len(stades_nettoyes)} stades traités et nettoyés")
 
 
 if __name__ == '__main__':

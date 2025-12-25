@@ -17,6 +17,40 @@ LIGUES = {
 }
 
 
+def charger_locations_stades():
+    """
+    Charge les données de localisation des stades depuis le fichier JSON.
+    
+    Returns:
+        DataFrame: Données des stades (ville, stade, lat, lon, capacité)
+    """
+    chemin_json = 'data/raw/locations_stades.json'
+    
+    if not os.path.exists(chemin_json):
+        print(f"Attention: Le fichier {chemin_json} n'existe pas.")
+        return pd.DataFrame()
+    
+    with open(chemin_json, 'r', encoding='utf-8') as f:
+        donnees = json.load(f)
+    
+    liste_stades = []
+    
+    # Le JSON est sous la forme {"Nom Equipe": {details...}}
+    for nom_equipe, details in donnees.items():
+        info_stade = details.copy()
+        info_stade['nom_equipe'] = nom_equipe
+        liste_stades.append(info_stade)
+    
+    df = pd.DataFrame(liste_stades)
+    
+    # Réorganiser les colonnes pour avoir le nom de l'équipe en premier
+    if not df.empty:
+        cols = ['nom_equipe'] + [c for c in df.columns if c != 'nom_equipe']
+        df = df[cols]
+    
+    return df
+
+
 def charger_matchs_ligue(code_ligue):
     """
     Charge les données de matchs depuis un fichier JSON de ligue.
@@ -50,7 +84,7 @@ def charger_matchs_ligue(code_ligue):
         # Extraction des scores
         score = match.get('score', {})
         
-        # Scores temps plein
+        # Scores 
         ft = score.get('ft', [None, None])
         donnees_match['score_equipe1_final'] = ft[0] if len(ft) > 0 else None
         donnees_match['score_equipe2_final'] = ft[1] if len(ft) > 1 else None
@@ -100,6 +134,12 @@ def sauvegarder_donnees_brutes():
         except FileNotFoundError:
             pass
     
+    # Sauvegarder les locations de stades
+    df_stades = charger_locations_stades()
+    if not df_stades.empty:
+        df_stades.to_csv('data/raw/locations_stades.csv', index=False)
+        print(f" Sauvegardé locations_stades.csv ({len(df_stades)} stades)")
+
     # Charger et sauvegarder toutes les ligues combinées
     df_tous = charger_toutes_les_ligues()
     if not df_tous.empty:

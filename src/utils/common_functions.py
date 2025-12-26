@@ -28,3 +28,9 @@ def calculer_buts_par_journee(matchs):
     buts = matchs.groupby('num_journee')['total_buts'].sum()
     
     return buts
+
+def charger_locations():
+    """
+    Charge les coordonnées des stades
+    """
+    return pd.read_csv('data/cleaned/locations_stades_nettoyes.csv')

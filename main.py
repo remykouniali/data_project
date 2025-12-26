@@ -1,7 +1,8 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
-from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee
+from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee,charger_locations
 import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
 # Ligues 
 LIGUES = {
     'fr.1': 'Ligue 1',
@@ -25,6 +26,9 @@ COLONNES = [
     {'id': 'points', 'name': 'Pts'}
 ]
 
+# Charger les locations au démarrage
+LOCATIONS = charger_locations()
+
 # Créer app
 app = Dash(__name__)
 
@@ -38,6 +42,10 @@ app.layout = html.Div([
         value='fr.1',
         inline=True
     ),
+    # Carte des stades
+    html.H2("Carte des stades"),
+    dcc.Graph(id='carte-stades'),
+    
     dcc.Graph(id='graphique-buts'),
     
     # Tableau
@@ -51,7 +59,7 @@ app.layout = html.Div([
     Input('selection-ligue', 'value')
 )
 
-# Fonction pour afficher le daqhboard
+# Fonction pour afficher le dashboard
 def afficher_dashboard(code_ligue):
     stats = charger_statistiques(code_ligue)
     matchs = charger_matchs(code_ligue)
@@ -69,6 +77,51 @@ def afficher_dashboard(code_ligue):
     
     
     return tableau, fig
+
+# Callback carte
+@callback(
+    Output('carte-stades', 'figure'),
+    Input('selection-ligue', 'value')
+)
+def afficher_carte(code_ligue):
+    stats = charger_statistiques(code_ligue)
+    equipes_ligue = stats['nom_equipe'].tolist()
+    locations_ligue = LOCATIONS[LOCATIONS['nom_equipe'].isin(equipes_ligue)].copy()
+    
+    # Taille des marqueurs selon capacité (8 à 30)
+    min_cap = locations_ligue['capacite'].min()
+    max_cap = locations_ligue['capacite'].max()
+    locations_ligue['taille'] = 8 + 22 * (locations_ligue['capacite'] - min_cap) / (max_cap - min_cap)
+    
+    fig = go.Figure()
+    fig.add_trace(go.Scattermap(
+        lat=locations_ligue['latitude'],
+        lon=locations_ligue['longitude'],
+        mode='markers',
+        marker=dict(size=locations_ligue['taille'], color='#1a1a2e', opacity=0.7),
+        text=locations_ligue['nom_equipe'],
+        customdata=locations_ligue[['ville', 'stade', 'capacite']],
+        hovertemplate='<b>%{text}</b><br>Ville: %{customdata[0]}<br>Stade: %{customdata[1]}<br>Capacité: %{customdata[2]:,} places<extra></extra>',
+    ))
+    
+    centres = {
+        'fr.1': {'lat': 46.5, 'lon': 2.5, 'zoom': 5},
+        'en.1': {'lat': 52.5, 'lon': -1.5, 'zoom': 5.5},
+        'de.1': {'lat': 51, 'lon': 10, 'zoom': 5},
+        'es.1': {'lat': 40, 'lon': -3.5, 'zoom': 5},
+        'it.1': {'lat': 42.5, 'lon': 12, 'zoom': 5}
+    }
+    centre = centres.get(code_ligue, {'lat': 46.5, 'lon': 2.5, 'zoom': 5})
+    
+    fig.update_layout(
+        map=dict(style='open-street-map', center=dict(lat=centre['lat'], lon=centre['lon']), zoom=centre['zoom']),
+        margin=dict(l=0, r=0, t=0, b=0),
+        height=500
+    )
+    return fig
+
+
+
 # Lancer le serveur
 if __name__ == '__main__':
     app.run(debug=True)

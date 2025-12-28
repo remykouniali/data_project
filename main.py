@@ -1,8 +1,11 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
 from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee,charger_locations
+from src.components.header import create_header
+from src.components.footer import create_footer
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
+
 # Ligues 
 LIGUES = {
     'fr.1': 'Ligue 1',
@@ -33,23 +36,37 @@ LOCATIONS = charger_locations()
 app = Dash(__name__)
 
 app.layout = html.Div([
-    html.H1("Dashboard "),
+    create_header(),
     
-    # Sélection de ligue
-    dcc.RadioItems(
-        id='selection-ligue',
-        options=[{'label': nom, 'value': code} for code, nom in LIGUES.items()],
-        value='fr.1',
-        inline=True
-    ),
-    # Carte des stades
-    html.H2("Carte des stades"),
-    dcc.Graph(id='carte-stades'),
+    html.Div([
+        html.Div([
+            html.H3("Sélectionner une ligue:", style={'marginBottom': '10px'}),
+            dcc.RadioItems(
+                id='selection-ligue',
+                options=[{'label': nom, 'value': code} for code, nom in LIGUES.items()],
+                value='fr.1',
+                inline=True,
+                style={'marginBottom': '18px'}
+            ),
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+        
+        html.Div([
+            html.H2("Carte des stades"),
+            dcc.Graph(id='carte-stades'),
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+        
+        html.Div([
+            html.H2("Buts par journée"),
+            dcc.Graph(id='graphique-buts'),
+        ], style={'padding': '22px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+        
+        html.Div([
+            html.H2("Classement"),
+            html.Div(id='tableau-classement')
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+    ], style={'maxWidth': '1200px', 'margin': '0 auto', 'padding': '0 20px'}),
     
-    dcc.Graph(id='graphique-buts'),
-    
-    # Tableau
-    html.Div(id='tableau-classement')
+    create_footer(),
 ])
 
 # Callback pour mettre à jour le tableau en fonction de la ligue sélectionné

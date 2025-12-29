@@ -34,3 +34,14 @@ def charger_locations():
     Charge les coordonnées des stades
     """
     return pd.read_csv('data/cleaned/locations_stades_nettoyes.csv')
+
+def calculer_stats_domicile_exterieur(matchs, stats):
+    # Buts à domicile et extérieur
+    dom = matchs.groupby('equipe1')['score_equipe1_final'].sum()
+    ext = matchs.groupby('equipe2')['score_equipe2_final'].sum()
+    
+    return pd.DataFrame({
+        'equipe': stats['nom_equipe'],
+        'buts_domicile': stats['nom_equipe'].map(dom).fillna(0),
+        'buts_exterieur': stats['nom_equipe'].map(ext).fillna(0)
+    })

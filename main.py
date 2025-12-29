@@ -1,5 +1,5 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
-from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee,charger_locations
+from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee, charger_locations, calculer_stats_domicile_exterieur
 from src.components.header import create_header
 from src.components.footer import create_footer
 import plotly.express as px
@@ -59,6 +59,11 @@ app.layout = html.Div([
             html.H2("Buts par journée"),
             dcc.Graph(id='graphique-buts'),
         ], style={'padding': '22px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+        
+        html.Div([
+            html.H2("Performance Domicile vs Extérieur"),
+            dcc.Graph(id='graphique-domicile-exterieur'),
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
         
         html.Div([
             html.H2("Classement"),
@@ -134,6 +139,38 @@ def afficher_carte(code_ligue):
         map=dict(style='open-street-map', center=dict(lat=centre['lat'], lon=centre['lon']), zoom=centre['zoom']),
         margin=dict(l=0, r=0, t=0, b=0),
         height=500
+    )
+    return fig
+
+# Callback graphique domicile vs extérieur
+@callback(
+    Output('graphique-domicile-exterieur', 'figure'),
+    Input('selection-ligue', 'value')
+)
+def afficher_graphique_domicile_exterieur(code_ligue):
+    stats = charger_statistiques(code_ligue)
+    matchs = charger_matchs(code_ligue)
+    data_perf = calculer_stats_domicile_exterieur(matchs, stats)
+    
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=data_perf['equipe'],
+        y=data_perf['buts_domicile'],
+        marker_color='#16213e'
+    ))
+    fig.add_trace(go.Bar(
+        x=data_perf['equipe'],
+        y=data_perf['buts_exterieur'],
+        marker_color='#4ecdc4'
+    ))
+    
+    fig.update_layout(
+        barmode='group',
+        xaxis_title='Équipes',
+        yaxis_title='Buts marqués',
+        xaxis={'tickangle': -45},
+        height=500,
+        showlegend=False
     )
     return fig
 

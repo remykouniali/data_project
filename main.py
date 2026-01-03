@@ -2,6 +2,10 @@ from dash import Dash, html, dash_table, dcc, callback, Output, Input
 from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee, charger_locations, calculer_stats_domicile_exterieur
 from src.components.header import create_header
 from src.components.footer import create_footer
+import src.pages.home as home
+import src.pages.carte as carte
+import src.pages.analyse as analyse
+import src.pages.about as about
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
@@ -39,6 +43,7 @@ app.layout = html.Div([
     create_header(),
     
     html.Div([
+        # Sélecteur de ligue (Global)
         html.Div([
             html.H3("Sélectionner une ligue:", style={'marginBottom': '10px'}),
             dcc.RadioItems(
@@ -48,28 +53,24 @@ app.layout = html.Div([
                 inline=True,
                 style={'marginBottom': '18px'}
             ),
-        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)', 'maxWidth': '1200px', 'margin': '20px auto'}),
+
+        # Onglets pour la navigation
+        dcc.Tabs([
+            # Onglet Accueil
+            dcc.Tab(label='Accueil', children=home.layout),
+
+            # Onglet Carte
+            dcc.Tab(label='Carte des Stades', children=carte.layout),
+
+            # Onglet Analyse
+            dcc.Tab(label='Analyse & Classement', children=analyse.layout),
+
+            # Onglet À propos
+            dcc.Tab(label='À propos', children=about.layout),
+        ], style={'maxWidth': '1200px', 'margin': '0 auto'}),
         
-        html.Div([
-            html.H2("Carte des stades"),
-            dcc.Graph(id='carte-stades'),
-        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
-        
-        html.Div([
-            html.H2("Buts par journée"),
-            dcc.Graph(id='graphique-buts'),
-        ], style={'padding': '22px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
-        
-        html.Div([
-            html.H2("Performance Domicile vs Extérieur"),
-            dcc.Graph(id='graphique-domicile-exterieur'),
-        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
-        
-        html.Div([
-            html.H2("Classement"),
-            html.Div(id='tableau-classement')
-        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'}),
-    ], style={'maxWidth': '1200px', 'margin': '0 auto', 'padding': '0 20px'}),
+    ]),
     
     create_footer(),
 ])

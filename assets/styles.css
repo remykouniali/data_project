@@ -3,7 +3,6 @@
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     color: white;
     padding: 2rem 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
 }
 
@@ -42,7 +41,6 @@
     color: white;
     padding: 2rem 1.5rem;
     margin-top: 3rem;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .footer-content {
@@ -126,7 +124,5 @@ body {
 
 .dash-table-container {
     margin: 2rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
     overflow: hidden;
 }

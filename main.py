@@ -53,7 +53,7 @@ app.layout = html.Div([
                 inline=True,
                 style={'marginBottom': '18px'}
             ),
-        ], style={'padding': '20px', 'backgroundColor': 'white', 'borderRadius': '8px', 'marginBottom': '20px', 'boxShadow': '0 2px 4px rgba(0,0,0,0.1)', 'maxWidth': '1200px', 'margin': '20px auto'}),
+        ], style={'padding': '20px', 'backgroundColor': 'white', 'marginBottom': '20px', 'maxWidth': '1200px', 'margin': '20px auto'}),
 
         # Onglets pour la navigation
         dcc.Tabs([

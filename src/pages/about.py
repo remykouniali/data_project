@@ -1,26 +1,49 @@
 from dash import html
 
+# Style commun des cartes (même que home.py)
+card_style = {
+    'backgroundColor': 'white',
+    'padding': '30px',
+    'marginBottom': '25px'
+}
+
 layout = html.Div([
-    html.H1("À propos du projet", style={'color': '#1a1a2e', 'marginBottom': '20px'}),
-    
+    # Bannière
     html.Div([
-        html.H3("L'objectif"),
-        html.P("Ce projet a pour but de visualiser et d'analyser les données des 5 grands championnats européens de football pour la saison en cours."),
-        
-        html.H3("Technologies utilisées", style={'marginTop': '20px'}),
-        html.Ul([
-            html.Li("Python (Traitement des données)"),
-            html.Li("Dash & Plotly (Visualisation interactive)"),
-            html.Li("Pandas (Manipulation de données)"),
-            html.Li("OpenStreetMap (Cartographie)")
-        ]),
-        
-        html.H3("Données", style={'marginTop': '20px'}),
-        html.P("Les données sont récupérées au format JSON puis nettoyées et transformées en CSV pour alimenter le dashboard."),
-        
-        html.H3("Auteur", style={'marginTop': '20px'}),
-        html.P("Développé par Rémy Kouniali et Noé Lautridou dans le cadre d'un projet étudiant.")
-        
-    ], style={'backgroundColor': 'white', 'padding': '30px', 'borderRadius': '10px', 'boxShadow': '0 2px 5px rgba(0,0,0,0.1)', 'textAlign': 'left'})
+        html.H1("À propos", style={'margin': '0'})
+    ], style={
+        'background': 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
+        'color': 'white',
+        'padding': '45px 30px',
+        'marginBottom': '35px'
+    }),
     
-], style={'maxWidth': '800px', 'margin': '0 auto', 'padding': '40px 20px', 'textAlign': 'center'})
+    # Objectif
+    html.Div([
+        html.H3("L'objectif du projet", style={'marginBottom': '15px'}),
+        html.P("Ce dashboard permet de visualiser et d'analyser les données des 5 grands championnats européens de football.", 
+               style={'marginBottom': '0'})
+    ], style=card_style),
+    
+    # Technologies
+    html.Div([
+        html.H3("Technologies utilisées", style={'marginBottom': '15px'}),
+        html.P("Python • Dash • Plotly • Pandas • OpenStreetMap", 
+               style={'color': '#555', 'marginBottom': '0'})
+    ], style=card_style),
+    
+    # Données
+    html.Div([
+        html.H3("Sources de données", style={'marginBottom': '15px'}),
+        html.P("Les données sont récupérées au format JSON puis nettoyées et transformées en CSV. Elles ont été trouvées sur github, le lien est présent dans le FOOTER", 
+               style={'marginBottom': '0'})
+    ], style=card_style),
+    
+    # Auteurs
+    html.Div([
+        html.H3("Auteurs", style={'marginBottom': '15px'}),
+        html.P("Dashboard développé par Rémy Kouniali et Noé Lautridou dans le cadre du projet Multidisciplinaire d'E3-FI", 
+               style={'marginBottom': '0'})
+    ], style=card_style)
+    
+], style={'padding': '25px', 'maxWidth': '900px', 'margin': '20px auto'})

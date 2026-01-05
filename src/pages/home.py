@@ -4,9 +4,7 @@ from dash import html
 card_style = {
     'backgroundColor': 'white',
     'padding': '30px',
-    'borderRadius': '6px',
-    'marginBottom': '25px',
-    'boxShadow': '0 1px 3px rgba(0,0,0,0.08)'
+    'marginBottom': '25px'
 }
 
 layout = html.Div([
@@ -18,9 +16,7 @@ layout = html.Div([
         'background': 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
         'color': 'white',
         'padding': '45px 30px',
-        'borderRadius': '8px',
-        'marginBottom': '35px',
-        'boxShadow': '0 2px 8px rgba(0,0,0,0.1)'
+        'marginBottom': '35px'
     }),
     
     # Introduction

@@ -1,5 +1,5 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
-from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee, charger_locations, calculer_stats_domicile_exterieur
+from src.utils.common_functions import charger_statistiques, charger_matchs, calculer_buts_par_journee, charger_locations, calculer_stats_domicile_exterieur, calculer_top_buteurs
 from src.components.header import create_header
 from src.components.footer import create_footer
 import src.pages.home as home
@@ -174,6 +174,30 @@ def afficher_graphique_domicile_exterieur(code_ligue):
         showlegend=False
     )
     return fig
+
+# Callback top buteurs
+@callback(
+    Output('graphique-top-buteurs', 'figure'),
+    Input('selection-ligue', 'value')
+)
+def afficher_top_buteurs(code_ligue):
+    stats = charger_statistiques(code_ligue)
+    top = calculer_top_buteurs(stats)
+    
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        y=top['nom_equipe'],
+        x=top['buts_pour'],
+        orientation='h',
+        marker_color='#1a1a2e'
+    ))
+    
+    fig.update_layout(
+        xaxis_title='Buts marqués',
+        height=500
+    )
+    return fig
+
 
 
 

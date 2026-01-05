@@ -54,5 +54,3 @@ layout = html.Div([
     ], style=card_style)
     
 ], style={'padding': '25px', 'maxWidth': '900px', 'margin': '20px auto'})
-
-

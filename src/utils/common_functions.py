@@ -45,3 +45,7 @@ def calculer_stats_domicile_exterieur(matchs, stats):
         'buts_domicile': stats['nom_equipe'].map(dom).fillna(0),
         'buts_exterieur': stats['nom_equipe'].map(ext).fillna(0)
     })
+
+def calculer_top_buteurs(stats, top_n=10):
+    # Top des attaques
+    return stats.nlargest(top_n, 'buts_pour')[['nom_equipe', 'buts_pour']]

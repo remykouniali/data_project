@@ -51,7 +51,7 @@ Les données utilisées pour ce projet concernent la saison 2024-2025.
 
 ### Provenance et Contenu
 Les données proviennent du projet **Open Football** ([http://openfootball.github.io](http://openfootball.github.io)), qui répertorie des milliers de données sur le football.
-Elles couvrent les 5 ligues majeures (Big 5) :
+Elles couvrent les 5 ligues majeures :
 - **France** : Ligue 1
 - **Angleterre** : Premier League
 - **Allemagne** : Bundesliga
@@ -154,7 +154,7 @@ Projet réalisé par **Rémy Kouniali** et **Noé Lautridou**.
 
 Je déclare sur l’honneur que le code fourni a été produit par nous-mêmes, à l’exception des éléments ci-dessous :
 
-- **Fichier README.md** : La rédaction de ce fichier a été assistée par une IA afin de gagner du temps et d'améliorer la visibilité du projet.
+- **Fichier README.md** : La rédaction de ce fichier a été assistée par une IA afin de gagner du temps et d'améliorer la visibilité du projet. Notamment le schéma mermaid
 
-Toute ligne non déclarée ci-dessus est réputée être produite par les auteurs du projet. L’absence ou l’omission de déclaration sera considérée comme du plagiat.
+
 
